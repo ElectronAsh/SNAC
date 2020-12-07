@@ -5915,7 +5915,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <wire x1="185.42" y1="121.92" x2="185.42" y2="226.06" width="0.2032" layer="97" style="longdash"/>
 <wire x1="127" y1="172.72" x2="0" y2="172.72" width="0.2032" layer="95" style="longdash"/>
 <wire x1="248.92" y1="172.72" x2="127" y2="172.72" width="0.2032" layer="95" style="longdash"/>
-<text x="98.806" y="113.03" size="3.302" layer="95">USB Controller</text>
 <text x="164.846" y="113.03" size="3.302" layer="95">USB Mister</text>
 <text x="17.526" y="41.91" size="1.778" layer="95">size 0805</text>
 <text x="337.82" y="175.26" size="1.778" layer="97" rot="MR0">UP</text>
@@ -6145,10 +6144,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <label x="60.96" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
-<label x="129.54" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X3" gate="-6" pin="F"/>
 <wire x1="358.14" y1="162.56" x2="347.98" y2="162.56" width="0.1524" layer="91"/>
 <label x="350.52" y="162.56" size="1.778" layer="95" rot="MR0"/>
@@ -6168,10 +6163,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <pinref part="JP2" gate="A" pin="2"/>
 <wire x1="53.34" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="60.96" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="124.46" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
-<label x="129.54" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-1" pin="F"/>
@@ -6224,10 +6215,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <pinref part="JP2" gate="A" pin="5"/>
 <wire x1="53.34" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="60.96" y="91.44" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="124.46" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
-<label x="129.54" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="VBUS"/>
@@ -6378,10 +6365,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <label x="60.96" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="88.9" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
-<label x="129.54" y="88.9" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X3" gate="-4" pin="F"/>
 <wire x1="358.14" y1="167.64" x2="347.98" y2="167.64" width="0.1524" layer="91"/>
 <label x="350.52" y="167.64" size="1.778" layer="95" rot="MR0"/>
@@ -6401,10 +6384,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <pinref part="JP2" gate="A" pin="4"/>
 <wire x1="53.34" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <label x="60.96" y="93.98" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="124.46" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
-<label x="129.54" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-2" pin="F"/>
@@ -6449,10 +6428,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <label x="60.96" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
-<label x="129.54" y="91.44" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X3" gate="-7" pin="F"/>
 <wire x1="358.14" y1="160.02" x2="347.98" y2="160.02" width="0.1524" layer="91"/>
 <label x="350.52" y="160.02" size="1.778" layer="95" rot="MR0"/>
@@ -6493,10 +6468,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <pinref part="JP2" gate="A" pin="8"/>
 <wire x1="53.34" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 <label x="60.96" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="124.46" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
-<label x="129.54" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-3" pin="F"/>
@@ -6551,10 +6522,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <label x="60.96" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="83.82" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
-<label x="129.54" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X3" gate="-9" pin="F"/>
 <wire x1="358.14" y1="154.94" x2="347.98" y2="154.94" width="0.1524" layer="91"/>
 <label x="350.52" y="154.94" size="1.778" layer="95" rot="MR0"/>
@@ -6607,10 +6574,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <pinref part="JP2" gate="A" pin="6"/>
 <wire x1="53.34" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
 <label x="60.96" y="88.9" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="124.46" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
-<label x="129.54" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="K2" gate="G$1" pin="GND"/>
