@@ -34,11 +34,10 @@ Combined SNES version, and SMS DB9 version added by ElectronAsh.
 ![SNAC with SNES Socket](images/SNAC_SNES_Combined.png)
 
 
-![SNAC to SMS DB9 with 3D Glasses driver](images/SNAC_SMS DB9_3D_Glasses.png)
-
 The 3D Glasses driver circuit is from e-panorama...
 <https://www.epanorama.net/circuits/sega3d.html>
 
+![SNAC to SMS DB9 with 3D Glasses driver](images/SNAC_SMS_DB9_3D_Glasses.png)
 
 3D Glasses are currently UNTESTED, and requires a small amount of logic added to the SMS core...
 <https://github.com/ElectronAsh/SMS_MiSTer/commit/f1a9c6a14ab4abe10b41bc215fec268e2c4a9a41#diff-611f67d650ae8753f9f84d55af3e77cf4d1eb36c99074ed24b0de36e7d29d69eR517>
