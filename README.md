@@ -31,6 +31,9 @@ Uxcell a19032000ux0260 instead of Wuerth 692112030100
 
 Combined SNES versions, and SMS DB9 version added by ElectronAsh.
 
+#Both SNES versions, and the SMS DB9 version are UNTESTED.
+Please do not build until they are confirmed working.
+
 ![SNAC with SNES Socket](images/SNAC_SNES_Combined.png)
 
 
