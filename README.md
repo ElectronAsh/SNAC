@@ -29,9 +29,15 @@ Uxcell a19032000ux0260 instead of Wuerth 692112030100
 ![SNAC to "HDMI"](images/SNAC_HDMI.png)
 
 
-Combined SNES version, and SMS DB9 version added by ElectronAsh.
+Combined SNES versions, and SMS DB9 version added by ElectronAsh.
 
 ![SNAC with SNES Socket](images/SNAC_SNES_Combined.png)
+
+
+Version with JST XH for the USER IO connection, and PCB meant for a specific housing.
+You can find the housing on eBay, using the search term "enclosure 90x70x28mm"
+
+![SNAC with SNES Socket](images/SNAC_SNES_Combined_Housing.png)
 
 
 The 3D Glasses driver circuit is from e-panorama...
