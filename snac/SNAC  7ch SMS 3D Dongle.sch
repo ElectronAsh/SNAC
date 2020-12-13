@@ -4294,13 +4294,13 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <instance part="IC1" gate="D" x="127" y="210.82"/>
 <instance part="R17" gate="G$1" x="114.3" y="198.12" rot="R90"/>
 <instance part="C3" gate="G$1" x="127" y="182.88"/>
-<instance part="R18" gate="1" x="139.7" y="198.12" rot="R180"/>
+<instance part="R18" gate="1" x="139.7" y="195.58" rot="R180"/>
 <instance part="Q9" gate="G$1" x="165.1" y="165.1"/>
 <instance part="R19" gate="G$1" x="160.02" y="195.58"/>
 <instance part="R20" gate="G$1" x="144.78" y="165.1"/>
 <instance part="D2" gate="G$1" x="157.48" y="157.48" rot="R90"/>
-<instance part="C4" gate="G$1" x="157.48" y="226.06"/>
-<instance part="X2" gate="1" x="220.98" y="205.74"/>
+<instance part="C4" gate="G$1" x="99.06" y="208.28" rot="R270"/>
+<instance part="X2" gate="1" x="228.6" y="205.74"/>
 <instance part="IC1" gate="P" x="106.68" y="208.28"/>
 </instances>
 <busses>
@@ -4333,12 +4333,14 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <wire x1="119.38" y1="213.36" x2="116.84" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="213.36" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
 <junction x="116.84" y="226.06"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="226.06" x2="154.94" y2="226.06" width="0.1524" layer="91"/>
-<junction x="149.86" y="226.06"/>
 <pinref part="IC1" gate="P" pin="VDD"/>
-<wire x1="106.68" y1="215.9" x2="106.68" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="215.9" x2="106.68" y2="218.44" width="0.1524" layer="91"/>
 <junction x="106.68" y="226.06"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="218.44" x2="106.68" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="210.82" x2="99.06" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="218.44" x2="106.68" y2="218.44" width="0.1524" layer="91"/>
+<junction x="106.68" y="218.44"/>
 </segment>
 </net>
 <net name="LV2" class="0">
@@ -4402,7 +4404,6 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <wire x1="68.58" y1="200.66" x2="73.66" y2="200.66" width="0.1524" layer="91"/>
 <label x="73.66" y="200.66" size="1.27" layer="95" xref="yes"/>
 <label x="167.64" y="149.86" size="1.27" layer="95" rot="R270" xref="yes"/>
-<label x="175.26" y="226.06" size="1.27" layer="95" xref="yes"/>
 <label x="106.68" y="187.96" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
@@ -4416,14 +4417,14 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <junction x="167.64" y="152.4"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="226.06" x2="175.26" y2="226.06" width="0.1524" layer="91"/>
-<label x="167.64" y="226.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="106.68" y1="187.96" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="187.96" x2="106.68" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="P" pin="VSS"/>
 <label x="106.68" y="190.5" size="1.778" layer="95" rot="R90"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="198.12" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="198.12" x2="99.06" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="198.12" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
+<junction x="106.68" y="198.12"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4433,21 +4434,21 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <wire x1="134.62" y1="210.82" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R18" gate="1" pin="A"/>
 <wire x1="139.7" y1="210.82" x2="152.4" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="203.2" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="200.66" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
 <junction x="139.7" y="210.82"/>
 <pinref part="R18" gate="1" pin="S"/>
-<wire x1="139.7" y1="205.74" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="198.12" x2="134.62" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="205.74" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
-<junction x="139.7" y="205.74"/>
+<wire x1="139.7" y1="203.2" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="195.58" x2="134.62" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="203.2" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
+<junction x="139.7" y="203.2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="TIP" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="O"/>
 <wire x1="167.64" y1="213.36" x2="172.72" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="I0"/>
-<wire x1="172.72" y1="213.36" x2="203.2" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="213.36" x2="210.82" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="182.88" x2="172.72" y2="200.66" width="0.1524" layer="91"/>
 <junction x="172.72" y="213.36"/>
@@ -4459,24 +4460,27 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <wire x1="129.54" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
 <junction x="172.72" y="182.88"/>
 <pinref part="X2" gate="1" pin="5"/>
-<wire x1="208.28" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="208.28" x2="203.2" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="208.28" x2="210.82" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="208.28" x2="210.82" y2="213.36" width="0.1524" layer="91"/>
+<label x="198.12" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="SLEEVE" class="0">
 <segment>
 <pinref part="IC1" gate="B" pin="O"/>
 <pinref part="X2" gate="1" pin="1"/>
-<wire x1="195.58" y1="198.12" x2="208.28" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="198.12" x2="215.9" y2="198.12" width="0.1524" layer="91"/>
+<label x="198.12" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="RING" class="0">
 <segment>
 <pinref part="IC1" gate="C" pin="O"/>
-<wire x1="195.58" y1="180.34" x2="203.2" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="180.34" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="180.34" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="180.34" x2="210.82" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="X2" gate="1" pin="2"/>
-<wire x1="203.2" y1="200.66" x2="208.28" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="200.66" x2="215.9" y2="200.66" width="0.1524" layer="91"/>
+<label x="198.12" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4484,12 +4488,12 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="182.88" x2="114.3" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="182.88" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="182.88" x2="114.3" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R18" gate="1" pin="E"/>
-<wire x1="114.3" y1="190.5" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="193.04" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
-<junction x="114.3" y="190.5"/>
+<wire x1="114.3" y1="187.96" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="190.5" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="187.96" x2="114.3" y2="187.96" width="0.1524" layer="91"/>
+<junction x="114.3" y="187.96"/>
 </segment>
 </net>
 <net name="N$10" class="0">
