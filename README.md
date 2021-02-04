@@ -40,6 +40,10 @@ Please do not build until they are confirmed working.
 Version with JST XH for the USER IO connection, and PCB meant for a specific housing.
 You can find the housing on eBay, using the search term "enclosure 90x70x28mm"
 
+NOTE: This version with the TXS0108 chip does NOT seem to work!
+If anyone has any suggestions as to why that chip doesn't work reliably in this application, please open a new issue and let me know. (ElectronAsh).
+I will remove this version from the repo soon, and likely replace it with a version that uses the FETs.
+
 ![SNAC with SNES Socket](images/SNAC_SNES_Combined_Housing.png)
 
 
