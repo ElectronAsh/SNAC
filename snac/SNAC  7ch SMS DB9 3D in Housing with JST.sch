@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5654,6 +5654,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="47.625" y="44.45" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="X5" gate="-6" pin="S"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="38.1" x2="330.2" y2="38.1" width="0.1524" layer="91"/>
+<label x="335.28" y="38.1" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="HV5" class="0">
 <segment>
@@ -5722,11 +5727,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="X1" gate="-1" pin="S"/>
 <wire x1="53.34" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <label x="45.72" y="22.86" size="1.778" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="38.1" x2="330.2" y2="38.1" width="0.1524" layer="91"/>
-<label x="335.28" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
