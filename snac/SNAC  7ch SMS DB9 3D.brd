@@ -11645,10 +11645,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="5.08" y1="12.7" x2="7.112" y2="12.7" width="0.3048" layer="1"/>
 <wire x1="5.08" y1="12.7" x2="5.08" y2="12.668" width="0.1778" layer="1"/>
 <via x="10.3378" y="14.3002" extent="1-16" drill="0.6"/>
-<wire x1="31.0896" y1="4.572" x2="31.0896" y2="1.9304" width="0.3048" layer="16"/>
-<wire x1="31.0896" y1="1.9304" x2="31.242" y2="1.778" width="0.1778" layer="16"/>
-<wire x1="27.7368" y1="7.9248" x2="17.7038" y2="7.9248" width="0.3048" layer="16"/>
-<wire x1="27.7368" y1="7.9248" x2="31.0896" y2="4.572" width="0.3048" layer="16"/>
+<wire x1="17.7038" y1="7.9248" x2="27.7368" y2="7.9248" width="0.3048" layer="16"/>
 <wire x1="31.176" y1="9.668" x2="31.1014" y2="9.5934" width="0.1778" layer="1"/>
 <wire x1="31.1014" y1="9.5934" x2="31.1014" y2="6.8834" width="0.3048" layer="1"/>
 <wire x1="31.1014" y1="6.8834" x2="31.242" y2="6.7428" width="0.1778" layer="1"/>
@@ -11657,6 +11654,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.3284" y1="14.3002" x2="10.3378" y2="14.3002" width="0.3048" layer="16"/>
 <wire x1="7.112" y1="12.7" x2="8.7122" y2="14.3002" width="0.3048" layer="1"/>
 <wire x1="8.7122" y1="14.3002" x2="10.3378" y2="14.3002" width="0.3048" layer="1"/>
+<contactref element="R20" pad="1"/>
+<wire x1="31.242" y1="4.4196" x2="31.242" y2="1.778" width="0.3048" layer="16"/>
+<wire x1="27.7368" y1="7.9248" x2="31.242" y2="4.4196" width="0.3048" layer="16"/>
+<wire x1="31.242" y1="1.778" x2="34.7726" y2="-1.7526" width="0.3048" layer="16"/>
+<wire x1="43.6626" y1="-1.7526" x2="45.72" y2="-3.81" width="0.3048" layer="16"/>
+<via x="45.72" y="-3.81" extent="1-16" drill="0.3302"/>
+<wire x1="34.7726" y1="-1.7526" x2="43.6626" y2="-1.7526" width="0.3048" layer="16"/>
+<wire x1="45.72" y1="-3.81" x2="45.7708" y2="-3.8608" width="0.3048" layer="1"/>
+<wire x1="45.7708" y1="-3.8608" x2="45.7708" y2="-5.0682" width="0.3048" layer="1"/>
 </signal>
 <signal name="HV5">
 <contactref element="Q5" pad="3"/>
@@ -11733,12 +11739,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.05" y1="10.1092" x2="12.5222" y2="16.637" width="0.3048" layer="16"/>
 <wire x1="12.5222" y1="16.637" x2="12.5222" y2="19.6088" width="0.3048" layer="16"/>
 <wire x1="42.4688" y1="5.2324" x2="39.751" y2="5.207" width="0.3048" layer="16"/>
-<contactref element="R20" pad="1"/>
-<via x="45.7962" y="-3.7338" extent="1-16" drill="0.3302"/>
-<wire x1="45.7708" y1="-5.0682" x2="45.7962" y2="-5.0428" width="0.2032" layer="1"/>
-<wire x1="45.7962" y1="-5.0428" x2="45.7962" y2="-3.7338" width="0.2032" layer="1"/>
-<wire x1="42.4688" y1="5.2324" x2="45.7962" y2="1.905" width="0.3048" layer="16"/>
-<wire x1="45.7962" y1="1.905" x2="45.7962" y2="-3.7338" width="0.3048" layer="16"/>
 </signal>
 <signal name="HV7">
 <contactref element="Q7" pad="3"/>

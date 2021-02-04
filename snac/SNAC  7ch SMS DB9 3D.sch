@@ -6410,6 +6410,12 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <pinref part="K2" gate="G$1" pin="STDA_SSRX+"/>
 <wire x1="187.96" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 <label x="193.04" y="91.44" size="1.27" layer="95" xref="yes"/>
+<label x="325.12" y="73.66" size="1.27" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="335.28" y1="73.66" x2="325.12" y2="73.66" width="0.1524" layer="91"/>
+<label x="330.2" y="73.66" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="HV5" class="0">
@@ -6499,11 +6505,6 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="116.84" y1="60.96" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <label x="116.84" y="55.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="335.28" y1="73.66" x2="325.12" y2="73.66" width="0.1524" layer="91"/>
-<label x="330.2" y="73.66" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="HV7" class="0">
