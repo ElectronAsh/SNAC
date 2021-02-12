@@ -34,8 +34,6 @@ Combined SNES versions, and SMS DB9 version added by ElectronAsh.
 #Both SNES versions, and the SMS DB9 version are UNTESTED.
 Please do not build until they are confirmed working.
 
-![SNAC with SNES Socket](images/SNAC_SNES_Combined.png)
-
 
 Version with JST XH for the USER IO connection, and PCB meant for a specific housing.
 You can find the housing on eBay, using the search term "enclosure 90x70x28mm"
