@@ -67,6 +67,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -91,8 +93,13 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -102,15 +109,38 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="mtFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="mbFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="mtGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="mbGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="mtTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="mHoles" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="mMilling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -4283,6 +4313,135 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <text x="241.3" y="48.26" size="2.54" layer="94">V01</text>
 <text x="166.624" y="52.324" size="2.54" layer="94"></text>
 <text x="45.466" y="217.17" size="3.302" layer="95">USER IO Mister</text>
+<text x="93.98" y="129.54" size="1.778" layer="97">Arduino_IO15</text>
+<text x="93.98" y="127" size="1.778" layer="97">Arduino_IO14</text>
+<text x="93.98" y="119.38" size="1.778" layer="97">Arduino_IO13</text>
+<text x="93.98" y="124.46" size="1.778" layer="97">Arduino_VREF</text>
+<text x="93.98" y="116.84" size="1.778" layer="97">Arduino_IO12</text>
+<text x="93.98" y="114.3" size="1.778" layer="97">Arduino_IO11</text>
+<text x="93.98" y="111.76" size="1.778" layer="97">Arduino_IO10</text>
+<text x="93.98" y="109.22" size="1.778" layer="97">Arduino_IO9</text>
+<text x="93.98" y="106.68" size="1.778" layer="97">Arduino_IO8</text>
+<text x="93.98" y="93.98" size="1.778" layer="97">Arduino_IO7</text>
+<text x="93.98" y="91.44" size="1.778" layer="97">Arduino_IO6</text>
+<text x="93.98" y="88.9" size="1.778" layer="97">Arduino_IO5</text>
+<text x="93.98" y="86.36" size="1.778" layer="97">Arduino_IO4</text>
+<text x="93.98" y="83.82" size="1.778" layer="97">Arduino_IO3</text>
+<text x="93.98" y="81.28" size="1.778" layer="97">Arduino_IO2</text>
+<text x="93.98" y="78.74" size="1.778" layer="97">Arduino_IO1</text>
+<text x="93.98" y="76.2" size="1.778" layer="97">Arduino_IO0</text>
+<text x="157.48" y="129.54" size="1.778" layer="97">RX</text>
+<text x="157.48" y="127" size="1.778" layer="97">TX</text>
+<text x="157.48" y="119.38" size="1.778" layer="97">RTS</text>
+<text x="157.48" y="116.84" size="1.778" layer="97">CTS</text>
+<text x="157.48" y="114.3" size="1.778" layer="97">DTR</text>
+<text x="157.48" y="111.76" size="1.778" layer="97">DSR</text>
+<text x="157.48" y="109.22" size="1.778" layer="97">SOG</text>
+<text x="157.48" y="106.68" size="1.778" layer="97">IO6</text>
+<text x="157.48" y="137.16" size="1.778" layer="97">IOB NAME...</text>
+<text x="93.98" y="121.92" size="1.778" layer="97">GND</text>
+<text x="114.3" y="81.28" size="1.778" layer="97">DL</text>
+<text x="114.3" y="78.74" size="1.778" layer="97">DH</text>
+<text x="114.3" y="76.2" size="1.778" layer="97">CKE</text>
+<text x="124.46" y="78.74" size="1.778" layer="97">&lt;- Older SDRAM board</text>
+<text x="175.26" y="129.54" size="1.778" layer="97">2. D-</text>
+<text x="175.26" y="127" size="1.778" layer="97">3. D+</text>
+<text x="175.26" y="121.92" size="1.778" layer="97">4. GND</text>
+<text x="175.26" y="132.08" size="1.778" layer="97">1. VBUS</text>
+<text x="175.26" y="106.68" size="1.778" layer="97">5. SSRX-</text>
+<text x="175.26" y="119.38" size="1.778" layer="97">6. SSRX+</text>
+<text x="175.26" y="116.84" size="1.778" layer="97">7. GND_DRAIN</text>
+<text x="175.26" y="114.3" size="1.778" layer="97">8. SSTX-</text>
+<text x="175.26" y="111.76" size="1.778" layer="97">9. SSTX+</text>
+<text x="175.26" y="137.16" size="1.778" layer="97">"USB 3.0" SKT...</text>
+<text x="93.98" y="137.16" size="1.778" layer="97">DE10 Name...</text>
+<text x="198.12" y="132.08" size="1.778" layer="97">16+18. 5V</text>
+<text x="157.48" y="132.08" size="1.778" layer="97">5V</text>
+<text x="198.12" y="129.54" size="1.778" layer="97">1.</text>
+<text x="198.12" y="127" size="1.778" layer="97">2.</text>
+<text x="198.12" y="121.92" size="1.778" layer="97">15+19. GND</text>
+<text x="198.12" y="106.68" size="1.778" layer="97">3.</text>
+<text x="198.12" y="119.38" size="1.778" layer="97">6.</text>
+<text x="198.12" y="116.84" size="1.778" layer="97">4.</text>
+<text x="198.12" y="114.3" size="1.778" layer="97">5.</text>
+<text x="198.12" y="111.76" size="1.778" layer="97">7. (via jumper)</text>
+<text x="198.12" y="137.16" size="1.778" layer="97">Bliss HDMI...</text>
+<text x="198.12" y="101.6" size="1.778" layer="97">17. 3V3</text>
+<text x="114.3" y="93.98" size="1.778" layer="97">DIG_SD_MISO</text>
+<text x="114.3" y="91.44" size="1.778" layer="97">DIG_SD_CLK</text>
+<text x="114.3" y="88.9" size="1.778" layer="97">DIG_SD_MOSI</text>
+<text x="114.3" y="86.36" size="1.778" layer="97">DIG_MCP_SCL</text>
+<text x="114.3" y="83.82" size="1.778" layer="97">DIG_MCP_SDA</text>
+<text x="114.3" y="137.16" size="1.778" layer="97">Core name...</text>
+<text x="114.3" y="106.68" size="1.778" layer="97">USER_IO[6]</text>
+<text x="114.3" y="111.76" size="1.778" layer="97">USER_IO[5]</text>
+<text x="114.3" y="114.3" size="1.778" layer="97">USER_IO[4]</text>
+<text x="114.3" y="116.84" size="1.778" layer="97">USER_IO[3]</text>
+<text x="114.3" y="119.38" size="1.778" layer="97">USER_IO[2]</text>
+<text x="114.3" y="127" size="1.778" layer="97">USER_IO[1]</text>
+<text x="114.3" y="129.54" size="1.778" layer="97">USER_IO[0]</text>
+<text x="60.96" y="129.54" size="1.778" layer="97">JP2 PIN1</text>
+<text x="134.62" y="129.54" size="1.778" layer="97">USERIO_LV2</text>
+<text x="134.62" y="127" size="1.778" layer="97">USERIO_LV4</text>
+<text x="134.62" y="119.38" size="1.778" layer="97">USERIO_LV5</text>
+<text x="134.62" y="116.84" size="1.778" layer="97">USERIO_LV3</text>
+<text x="134.62" y="114.3" size="1.778" layer="97">USERIO_LV1</text>
+<text x="134.62" y="111.76" size="1.778" layer="97">USERIO_LV7</text>
+<text x="134.62" y="106.68" size="1.778" layer="97">USERIO_LV6</text>
+<text x="76.2" y="106.68" size="1.778" layer="97">PIN_AF17</text>
+<text x="76.2" y="111.76" size="1.778" layer="97">PIN_AF15</text>
+<text x="76.2" y="114.3" size="1.778" layer="97">PIN_AG16</text>
+<text x="76.2" y="116.84" size="1.778" layer="97">PIN_AH11</text>
+<text x="76.2" y="119.38" size="1.778" layer="97">PIN_AH12</text>
+<text x="76.2" y="127" size="1.778" layer="97">PIN_AH9</text>
+<text x="76.2" y="129.54" size="1.778" layer="97">PIN_AG11</text>
+<text x="93.98" y="63.5" size="1.778" layer="97">Arduino_Reset_n</text>
+<text x="76.2" y="63.5" size="1.778" layer="97">PIN_AH7</text>
+<text x="76.2" y="76.2" size="1.778" layer="97">PIN_AG13</text>
+<text x="76.2" y="78.74" size="1.778" layer="97">PIN_AF13</text>
+<text x="76.2" y="81.28" size="1.778" layer="97">PIN_AG10</text>
+<text x="76.2" y="83.82" size="1.778" layer="97">PIN_AG9</text>
+<text x="76.2" y="86.36" size="1.778" layer="97">PIN_U14</text>
+<text x="76.2" y="88.9" size="1.778" layer="97">PIN_U13</text>
+<text x="76.2" y="91.44" size="1.778" layer="97">PIN_AG8</text>
+<text x="76.2" y="93.98" size="1.778" layer="97">PIN_AH8</text>
+<text x="76.2" y="109.22" size="1.778" layer="97">PIN_AE15</text>
+<text x="134.62" y="137.16" size="1.778" layer="97">USERIO NAME...</text>
+<text x="60.96" y="127" size="1.778" layer="97">JP2 PIN2</text>
+<text x="60.96" y="124.46" size="1.778" layer="97">JP2 PIN3</text>
+<text x="60.96" y="121.92" size="1.778" layer="97">JP2 PIN4</text>
+<text x="60.96" y="119.38" size="1.778" layer="97">JP2 PIN5</text>
+<text x="60.96" y="116.84" size="1.778" layer="97">JP2 PIN6</text>
+<text x="60.96" y="114.3" size="1.778" layer="97">JP2 PIN7</text>
+<text x="60.96" y="111.76" size="1.778" layer="97">JP2 PIN8</text>
+<text x="60.96" y="109.22" size="1.778" layer="97">JP2 PIN9</text>
+<text x="60.96" y="106.68" size="1.778" layer="97">JP2 PIN10</text>
+<text x="60.96" y="93.98" size="1.778" layer="97">JP3 PIN1</text>
+<text x="60.96" y="96.52" size="1.778" layer="97">(IOB P6)</text>
+<text x="60.96" y="132.08" size="1.778" layer="97">(IOB P7)</text>
+<text x="60.96" y="91.44" size="1.778" layer="97">JP3 PIN2</text>
+<text x="60.96" y="86.36" size="1.778" layer="97">JP3 PIN4</text>
+<text x="60.96" y="88.9" size="1.778" layer="97">JP3 PIN3</text>
+<text x="60.96" y="83.82" size="1.778" layer="97">JP3 PIN5</text>
+<text x="60.96" y="81.28" size="1.778" layer="97">JP3 PIN6</text>
+<text x="60.96" y="78.74" size="1.778" layer="97">JP3 PIN7</text>
+<text x="60.96" y="76.2" size="1.778" layer="97">JP3 PIN8</text>
+<text x="60.96" y="63.5" size="1.778" layer="97">JP5 PIN3</text>
+<text x="60.96" y="66.04" size="1.778" layer="97">JP5 PIN2</text>
+<text x="60.96" y="68.58" size="1.778" layer="97">JP5 PIN1</text>
+<text x="60.96" y="60.96" size="1.778" layer="97">JP5 PIN4</text>
+<text x="60.96" y="58.42" size="1.778" layer="97">JP5 PIN5</text>
+<text x="60.96" y="55.88" size="1.778" layer="97">JP5 PIN6</text>
+<text x="60.96" y="53.34" size="1.778" layer="97">JP5 PIN7</text>
+<text x="60.96" y="50.8" size="1.778" layer="97">JP5 PIN8</text>
+<text x="76.2" y="137.16" size="1.778" layer="97">FPGA PIN...</text>
+<text x="93.98" y="68.58" size="1.778" layer="97">NC</text>
+<text x="93.98" y="66.04" size="1.778" layer="97">+3V3</text>
+<text x="93.98" y="60.96" size="1.778" layer="97">+3V3</text>
+<text x="93.98" y="58.42" size="1.778" layer="97">+5V</text>
+<text x="93.98" y="55.88" size="1.778" layer="97">GND</text>
+<text x="93.98" y="53.34" size="1.778" layer="97">GND</text>
+<text x="93.98" y="50.8" size="1.778" layer="97">+9V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="40.64"/>
@@ -4376,12 +4535,6 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <pinref part="K2" gate="G$1" pin="STDA_SSRX+"/>
 <wire x1="68.58" y1="195.58" x2="73.66" y2="195.58" width="0.1524" layer="91"/>
 <label x="73.66" y="195.58" size="1.27" layer="95" xref="yes"/>
-<label x="129.54" y="165.1" size="1.27" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
-<label x="134.62" y="165.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="LV6" class="0">
@@ -4389,6 +4542,12 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 <pinref part="K2" gate="G$1" pin="STDA_SSRX-"/>
 <wire x1="68.58" y1="198.12" x2="73.66" y2="198.12" width="0.1524" layer="91"/>
 <label x="73.66" y="198.12" size="1.27" layer="95" xref="yes"/>
+<label x="127" y="165.1" size="1.27" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
+<label x="134.62" y="165.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="LV7" class="0">
