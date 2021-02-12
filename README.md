@@ -63,10 +63,18 @@ The standalone dongle version of the 3D Glasses driver is for people who don't m
 ![SNAC to SMS 3D Glasses driver, separate dongle](images/SMS_SNAC_3D_Glasses_Dongle.png)
 
 
-I updated the SMS core repo on my github with a new menu option (in the Input section) for SNAC-Only, 3D-Only, or SNAC+3D.
-
-One caveat of the 3D mode is that it uses the signal normally used for the Button 2 input from the SMS joypad.
-So that button won't work in games when the 3D glasses mode is enabled.
+I updated the SMS core repo on my github with a new menu options (in the Input section) for SNAC-Only, 3D-Only, or SNAC+3D.
 
 <https://github.com/ElectronAsh/SMS_MiSTer/blob/f2dcc660f143cf5afca576f203ca9adbdb81673e/SMS.sv#L199>
+
+One caveat of the 3D mode is that the signal normally used for the Button 2 input from the SMS joypad is used to control the 3D glasses.
+So Button 2 won't work in games when 3D glasses mode is enabled.
+
+This also means the option for the "Pause Button Combo" won't work either via SNAC (real SMS joypad) with 3D glasses mode enabled, and the Pause option will be greyed out in the OSD.
+(But you can still use the Pause button mapping from a USB joypad.)
+
+AFAIK, SMS Light Gun support should still work via the SNAC adapter with 3D Glasses enabled, but this is currently UNTESTED.
+I believe Missile Command 3-D is one of the few SMS games to support 3D Glasses and the Light Gun at the same time.
+
+
 
