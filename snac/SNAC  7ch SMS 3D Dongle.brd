@@ -6984,12 +6984,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.6908" y1="14.4678" x2="20.6908" y2="14.816" width="0.2032" layer="1"/>
 <wire x1="20.6908" y1="14.816" x2="20.7162" y2="14.9938" width="0.2032" layer="1"/>
 <wire x1="20.7162" y1="14.9938" x2="20.7162" y2="16.9848" width="0.2032" layer="1"/>
-<polygon width="0.1524" layer="16">
-<vertex x="0.0762" y="21.7932"/>
-<vertex x="37.1094" y="21.7932"/>
-<vertex x="37.1094" y="0"/>
-<vertex x="0.0762" y="0"/>
-</polygon>
 <polygon width="0.1524" layer="1">
 <vertex x="0.0762" y="21.7932"/>
 <vertex x="37.1094" y="21.7932"/>
@@ -6997,6 +6991,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="0.0762" y="0"/>
 </polygon>
 <contactref element="C4" pad="2"/>
+<polygon width="0.1524" layer="16">
+<vertex x="0.0762" y="21.7932"/>
+<vertex x="37.1094" y="21.7932"/>
+<vertex x="37.1094" y="0"/>
+<vertex x="0.0762" y="0"/>
+</polygon>
 </signal>
 <signal name="HV">
 <contactref element="K2" pad="1"/>
