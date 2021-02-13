@@ -1910,6 +1910,7 @@
 <text x="41.3258" y="55.788559375" size="0.8128" layer="21" ratio="15">ElectronAsh</text>
 <text x="44.3484" y="17.4498" size="0.762" layer="21" font="vector" ratio="15" rot="R90">OPT</text>
 <text x="35.4076" y="46.736" size="0.6096" layer="21" font="vector" ratio="15">1uf</text>
+<dimension x1="16.2306" y1="65.3796" x2="71.7804" y2="65.4558" x3="43.99901875" y3="70.142509375" textsize="1.778" layer="1" dtype="diameter"/>
 </plain>
 <libraries>
 <library name="rc-master-smd">
