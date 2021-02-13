@@ -1,0 +1,24 @@
+Partlist exported from C:/SNAC/snac/SNAC  7ch SMS 3D Dongle.sch at 09/12/2020 16:54
+
+Part Value        Device           Package      Description
+R1   75K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603FT75K0
+R17  75K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603FT75K0
+R19  10K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603JT10K0CT-ND
+R20  10K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603JT10K0CT-ND
+C3   10nF         C_0805           C0805        NON-POLARIZED CAP                        digikey C0805X103K1RAC3316CT-ND
+C8   10nF         C_0805           C0805        NON-POLARIZED CAP                        digikey C0805X103K1RAC3316CT-ND
+C4   22uF         C_0805           C0805        NON-POLARIZED CAP                        digikey 399-4696-1-ND
+C9   22uF         C_0805           C0805        NON-POLARIZED CAP                        digikey 399-4696-1-ND
+C1   2.2uF        C_0805           0805         CAP CER 2.2UF 10V X7R 0805               digikey CL21B225KPFNNNE
+C2   2.2uF        C_0805           0805         CAP CER 2.2UF 10V X7R 0805               digikey CL21B225KPFNNNE
+C5   2.2uF        C_0805           0805         CAP CER 2.2UF 10V X7R 0805               digikey CL21B225KPFNNNE
+C6   2.2uF        C_0805           0805         CAP CER 2.2UF 10V X7R 0805               digikey CL21B225KPFNNNE
+C7   2.2uF        C_0805           0805         CAP CER 2.2UF 10V X7R 0805               digikey CL21B225KPFNNNE
+D2   BAT54        BAT54            SOT23        Schottky Diodes                          digikey BAT54LT1GOSCT-ND
+D1   BAS40-04     BAS40-04         SOT23        Dual Shottky Diode                       digikey BAS40-04FDICT-ND
+D3   BAS40-04     BAS40-04         SOT23        Dual Shottky Diode                       digikey BAS40-04FDICT-ND
+IC1  4030D        4030D            SO14         Quad XOR                                 digikey 296-14263-5-ND
+IC2  4030D        4030D            SO14         Quad XOR                                 digikey 296-14263-5-ND
+Q9   BC849SMD     BC849SMD         SOT23-BEC    NPN Transistor                           digikey BC847C-TPCT-ND
+X2   STEREOJACK   STEREOJACK       STX3100      MIC/HEADPHONE JACK                       digikey CP1-3523N-ND
+K2   692112030100 692112030100     692112030100 WR-COM  USB 3.0 SMT PLUG WITH CLIPTYPE A digikey 732-3157-ND

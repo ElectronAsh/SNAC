@@ -6678,7 +6678,7 @@ KS-S stereo microphone/headphone jack&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-2layer">
+<designrules name="oshpark-2layer *">
 <description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
@@ -6688,8 +6688,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 &lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
 &lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
-<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mtCopper" value="0.035mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -6955,12 +6955,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC2" pad="9"/>
 <contactref element="IC2" pad="8"/>
 <polygon width="0.1524" layer="1">
-<vertex x="1.2954" y="25.0698"/>
-<vertex x="38.5572" y="25.0698"/>
-<vertex x="38.5572" y="1.2954"/>
-<vertex x="1.2954" y="1.2954"/>
-</polygon>
-<polygon width="0.1524" layer="16">
 <vertex x="1.2954" y="25.0698"/>
 <vertex x="38.5572" y="25.0698"/>
 <vertex x="38.5572" y="1.2954"/>
@@ -7258,6 +7252,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.938" y1="7.112" x2="11.9634" y2="7.0866" width="0.254" layer="1"/>
 <wire x1="13.208" y1="9.7028" x2="13.208" y2="7.112" width="0.254" layer="1"/>
 <wire x1="13.208" y1="7.112" x2="13.1826" y2="7.0866" width="0.254" layer="1"/>
+</signal>
+<signal name="N$15">
+<polygon width="0.1524" layer="16">
+<vertex x="1.2954" y="25.0698"/>
+<vertex x="38.5572" y="25.0698"/>
+<vertex x="38.5572" y="1.2954"/>
+<vertex x="1.2954" y="1.2954"/>
+</polygon>
 </signal>
 </signals>
 </board>
