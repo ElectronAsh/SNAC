@@ -63,7 +63,7 @@ The frequency of the oscillator that drives the LCDs doesn't seem to have any pa
 The standalone dongle version of the 3D Glasses driver is for people who don't mind using the SMS core with a USB joypad, and just want the 3D glasses option.
 (in which case, both SMS buttons will obviously work fine when mapping from a USB joypad, or USB keyboard.)
 
-![SNAC to SMS 3D Glasses driver, separate dongle](images/SNAC_SMS_3D_Dongle.png.png)
+![SNAC to SMS 3D Glasses driver, separate dongle](images/SNAC_SMS_3D_Dongle.png)
 
 
 I updated the SMS core repo on my github with a new menu options (in the Input section) for SNAC-Only, 3D-Only, or SNAC+3D.
