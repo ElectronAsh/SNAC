@@ -170,9 +170,9 @@
 <wire x1="13.4112" y1="0.4572" x2="74.7014" y2="0.4572" width="0.2032" layer="20"/>
 <wire x1="74.7014" y1="0.4572" x2="74.7014" y2="9.3472" width="0.2032" layer="20"/>
 <wire x1="74.7014" y1="9.3472" x2="74.676" y2="9.3726" width="0.2032" layer="20"/>
-<wire x1="74.676" y1="9.3726" x2="66.4464" y2="9.3726" width="0.2032" layer="20"/>
-<wire x1="66.4464" y1="9.3726" x2="66.4464" y2="56.3118" width="0.2032" layer="20"/>
-<wire x1="66.4464" y1="56.3118" x2="74.5998" y2="56.3118" width="0.2032" layer="20"/>
+<wire x1="74.676" y1="9.3726" x2="69.8754" y2="9.3726" width="0.2032" layer="20"/>
+<wire x1="69.8754" y1="9.3726" x2="69.8754" y2="56.3118" width="0.2032" layer="20"/>
+<wire x1="69.8754" y1="56.3118" x2="74.5998" y2="56.3118" width="0.2032" layer="20"/>
 <wire x1="74.5998" y1="56.3118" x2="74.5998" y2="64.6684" width="0.2032" layer="20"/>
 <wire x1="74.5998" y1="64.6684" x2="13.4112" y2="64.6684" width="0.2032" layer="20"/>
 <rectangle x1="24.69515" y1="47.68215" x2="24.70785" y2="47.69485" layer="21" rot="R270"/>
@@ -1910,7 +1910,6 @@
 <text x="41.3258" y="55.788559375" size="0.8128" layer="21" ratio="15">ElectronAsh</text>
 <text x="44.3484" y="17.4498" size="0.762" layer="21" font="vector" ratio="15" rot="R90">OPT</text>
 <text x="35.4076" y="46.736" size="0.6096" layer="21" font="vector" ratio="15">1uf</text>
-<dimension x1="16.2306" y1="65.3796" x2="71.7804" y2="65.4558" x3="43.99901875" y3="70.142509375" textsize="1.778" layer="1" dtype="diameter"/>
 </plain>
 <libraries>
 <library name="rc-master-smd">
@@ -2331,7 +2330,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="44.1198" y="51.2826" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.94325" y="53.18853125" size="0.889434375" layer="27" ratio="11" rot="R270"/>
 </element>
-<element name="SNES_CON" library="gamepad-conn" package="SNESCONN" value="SNESCONN" x="59.5884" y="46.9138" rot="R270"/>
+<element name="SNES_CON" library="gamepad-conn" package="SNESCONN" value="SNESCONN" x="63.3884" y="46.9138" rot="R270"/>
 <element name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-09-PACKAGE-LONG-PAD" value="JST-XH-09-PIN-LONG-PAD" x="30.4546" y="31.5976" rot="R90"/>
 <element name="C3" library="rc-master-smd" package="C0805" value="100nF" x="36.1188" y="44.3484" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.8488" y="44.0182" size="0.4064" layer="25" ratio="18" rot="R90"/>
@@ -2390,8 +2389,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="74.549" y="64.6176"/>
 <vertex x="74.5998" y="64.6176"/>
 <vertex x="74.5998" y="56.3118"/>
-<vertex x="66.4464" y="56.3118"/>
-<vertex x="66.4464" y="9.3726"/>
+<vertex x="69.8754" y="56.3118"/>
+<vertex x="69.8754" y="9.3726"/>
 <vertex x="74.676" y="9.3726"/>
 <vertex x="74.676" y="0.4826"/>
 <vertex x="13.3604" y="0.508"/>
@@ -2404,8 +2403,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <polygon width="0.127" layer="16">
 <vertex x="74.5998" y="64.6176"/>
 <vertex x="74.5998" y="56.3118"/>
-<vertex x="66.4464" y="56.3118"/>
-<vertex x="66.4464" y="9.3726"/>
+<vertex x="69.8754" y="56.3118"/>
+<vertex x="69.8754" y="9.3726"/>
 <vertex x="74.676" y="9.3726"/>
 <vertex x="74.676" y="0.4318"/>
 <vertex x="13.3604" y="0.508"/>
@@ -2521,8 +2520,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="47.924721875" y1="46.674140625" x2="49.566459375" y2="46.674140625" width="0.254" layer="1"/>
 <wire x1="49.566459375" y1="46.674140625" x2="50.4444" y2="45.7962" width="0.254" layer="1"/>
 <via x="50.4444" y="45.7962" extent="1-16" drill="0.3302"/>
-<wire x1="50.4444" y1="45.7962" x2="50.4444" y2="41.3658" width="0.254" layer="16"/>
-<wire x1="50.4444" y1="41.3658" x2="63.6524" y2="28.1578" width="0.254" layer="16"/>
+<wire x1="50.4444" y1="45.7962" x2="50.4444" y2="41.3766" width="0.254" layer="16"/>
+<wire x1="50.4444" y1="41.3766" x2="63.6632" y2="28.1578" width="0.254" layer="16"/>
+<wire x1="63.6632" y1="28.1578" x2="67.4524" y2="28.1578" width="0.254" layer="16"/>
 </signal>
 <signal name="HV2">
 <contactref element="SNES_CON" pad="CLOCK"/>
@@ -2533,7 +2533,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.974" y1="41.9608" x2="46.9256" y2="42.9124" width="0.254" layer="1"/>
 <wire x1="46.9256" y1="42.9124" x2="47.9298" y2="42.9124" width="0.254" layer="1"/>
 <wire x1="47.9298" y1="42.9124" x2="63.5898" y2="42.9124" width="0.254" layer="1"/>
-<wire x1="63.5898" y1="42.9124" x2="63.6524" y2="42.8498" width="0.254" layer="1"/>
+<wire x1="63.5898" y1="42.9124" x2="67.4524" y2="42.8498" width="0.254" layer="1"/>
 </signal>
 <signal name="HV">
 <contactref element="C1" pad="2"/>
@@ -2596,7 +2596,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="47.571659375" y1="50.256440625" x2="49.6062" y2="50.256440625" width="0.4064" layer="1"/>
 <wire x1="49.6062" y1="50.256440625" x2="52.994559375" y2="50.256440625" width="0.4064" layer="1"/>
 <wire x1="52.994559375" y1="50.256440625" x2="56.3372" y2="46.9138" width="0.4064" layer="1"/>
-<wire x1="56.3372" y1="46.9138" x2="63.6524" y2="46.9138" width="0.4064" layer="1"/>
+<wire x1="56.3372" y1="46.9138" x2="67.4524" y2="46.9138" width="0.4064" layer="1"/>
 <wire x1="45.974" y1="43.8912" x2="49.6062" y2="47.5234" width="0.4064" layer="16"/>
 <via x="49.6062" y="50.256440625" extent="1-16" drill="0.3302"/>
 <wire x1="49.6062" y1="47.5234" x2="49.6062" y2="50.256440625" width="0.4064" layer="16"/>
@@ -2690,7 +2690,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.1944" y1="34.417" x2="46.0444" y2="35.267" width="0.254" layer="1"/>
 <wire x1="46.0444" y1="35.267" x2="47.9044" y2="35.267" width="0.254" layer="1"/>
 <wire x1="47.9044" y1="35.267" x2="53.6312" y2="35.267" width="0.254" layer="1"/>
-<wire x1="57.15" y1="38.7858" x2="63.6524" y2="38.7858" width="0.254" layer="1"/>
+<wire x1="57.15" y1="38.7858" x2="67.4524" y2="38.7858" width="0.254" layer="1"/>
 <wire x1="53.6312" y1="35.267" x2="57.15" y2="38.7858" width="0.254" layer="1"/>
 </signal>
 <signal name="LV5">
@@ -2720,8 +2720,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.745" y1="29.2744" x2="49.8348" y2="29.1846" width="0.254" layer="1"/>
 <via x="49.8348" y="29.1846" extent="1-16" drill="0.3302"/>
 <wire x1="49.8348" y1="29.1846" x2="53.6448" y2="29.1846" width="0.254" layer="16"/>
-<wire x1="58.7356" y1="24.0938" x2="63.6524" y2="24.0938" width="0.254" layer="16"/>
 <wire x1="53.6448" y1="29.1846" x2="58.7356" y2="24.0938" width="0.254" layer="16"/>
+<wire x1="58.7356" y1="24.0938" x2="67.4524" y2="24.0938" width="0.254" layer="16"/>
 </signal>
 <signal name="LV6">
 <contactref element="X2" pad="5"/>
@@ -2745,7 +2745,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="47.8282" y1="25.3374" x2="47.9162" y2="25.4254" width="0.1778" layer="1"/>
 <wire x1="45.9682" y1="25.3374" x2="47.8282" y2="25.3374" width="0.254" layer="1"/>
 <wire x1="47.8282" y1="25.3374" x2="51.6264" y2="25.3374" width="0.254" layer="1"/>
-<wire x1="61.0108" y1="34.7218" x2="63.6524" y2="34.7218" width="0.254" layer="1"/>
+<wire x1="61.0108" y1="34.7218" x2="67.4524" y2="34.7218" width="0.254" layer="1"/>
 <wire x1="51.6264" y1="25.3374" x2="61.0108" y2="34.7218" width="0.254" layer="1"/>
 </signal>
 <signal name="LV7">

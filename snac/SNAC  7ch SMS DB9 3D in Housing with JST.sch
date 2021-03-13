@@ -7029,7 +7029,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="X4" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-09-PIN" device="-LONG-PAD"/>
 <part name="X5" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-09-PIN" device="-LONG-PAD"/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
-<part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="C13" library="rc-master-smd" deviceset="C_" device="0805" value="22uF"/>
 <part name="IC2" library="maxim" deviceset="MAX660CPA" device="CS"/>
 <part name="D1" library="diode" deviceset="MBRA340T3" device=""/>
@@ -7091,6 +7090,73 @@ Source: AVX .. aphvc.pdf</description>
 <text x="342.9" y="121.92" size="1.778" layer="91" rot="MR0">5V supply connects to GND pin in
 the voltage-doubler configuration! -&gt;</text>
 <text x="391.16" y="134.62" size="1.778" layer="91">&lt;- Pin 5 and 6 are Grounded.</text>
+<text x="330.2" y="198.12" size="1.778" layer="97">Arduino_IO15</text>
+<text x="330.2" y="195.58" size="1.778" layer="97">Arduino_IO14</text>
+<text x="330.2" y="187.96" size="1.778" layer="97">Arduino_IO13</text>
+<text x="330.2" y="193.04" size="1.778" layer="97">Arduino_VREF</text>
+<text x="330.2" y="185.42" size="1.778" layer="97">Arduino_IO12</text>
+<text x="330.2" y="182.88" size="1.778" layer="97">Arduino_IO11</text>
+<text x="330.2" y="180.34" size="1.778" layer="97">Arduino_IO10</text>
+<text x="330.2" y="177.8" size="1.778" layer="97">Arduino_IO9</text>
+<text x="330.2" y="175.26" size="1.778" layer="97">Arduino_IO8</text>
+<text x="393.7" y="198.12" size="1.778" layer="97">RX</text>
+<text x="393.7" y="195.58" size="1.778" layer="97">TX</text>
+<text x="393.7" y="187.96" size="1.778" layer="97">RTS</text>
+<text x="393.7" y="185.42" size="1.778" layer="97">CTS</text>
+<text x="393.7" y="182.88" size="1.778" layer="97">DTR</text>
+<text x="393.7" y="180.34" size="1.778" layer="97">DSR</text>
+<text x="393.7" y="177.8" size="1.778" layer="97">SOG</text>
+<text x="393.7" y="175.26" size="1.778" layer="97">IO6</text>
+<text x="393.7" y="205.74" size="1.778" layer="97">IOB NAME...</text>
+<text x="330.2" y="190.5" size="1.778" layer="97">GND</text>
+<text x="411.48" y="198.12" size="1.778" layer="97">2. D-</text>
+<text x="411.48" y="195.58" size="1.778" layer="97">3. D+</text>
+<text x="411.48" y="190.5" size="1.778" layer="97">4. GND</text>
+<text x="411.48" y="200.66" size="1.778" layer="97">1. VBUS</text>
+<text x="411.48" y="175.26" size="1.778" layer="97">5. SSRX-</text>
+<text x="411.48" y="187.96" size="1.778" layer="97">6. SSRX+</text>
+<text x="411.48" y="185.42" size="1.778" layer="97">7. GND_DRAIN</text>
+<text x="411.48" y="182.88" size="1.778" layer="97">8. SSTX-</text>
+<text x="411.48" y="180.34" size="1.778" layer="97">9. SSTX+</text>
+<text x="411.48" y="205.74" size="1.778" layer="97">"USB 3.0" SKT...</text>
+<text x="330.2" y="205.74" size="1.778" layer="97">DE10 Name...</text>
+<text x="393.7" y="200.66" size="1.778" layer="97">5V</text>
+<text x="350.52" y="205.74" size="1.778" layer="97">Core name...</text>
+<text x="350.52" y="175.26" size="1.778" layer="97">USER_IO[6]</text>
+<text x="350.52" y="180.34" size="1.778" layer="97">USER_IO[5]</text>
+<text x="350.52" y="182.88" size="1.778" layer="97">USER_IO[4]</text>
+<text x="350.52" y="185.42" size="1.778" layer="97">USER_IO[3]</text>
+<text x="350.52" y="187.96" size="1.778" layer="97">USER_IO[2]</text>
+<text x="350.52" y="195.58" size="1.778" layer="97">USER_IO[1]</text>
+<text x="350.52" y="198.12" size="1.778" layer="97">USER_IO[0]</text>
+<text x="297.18" y="198.12" size="1.778" layer="97">JP2 PIN1</text>
+<text x="370.84" y="198.12" size="1.778" layer="97">USERIO_LV2</text>
+<text x="370.84" y="195.58" size="1.778" layer="97">USERIO_LV4</text>
+<text x="370.84" y="187.96" size="1.778" layer="97">USERIO_LV5</text>
+<text x="370.84" y="185.42" size="1.778" layer="97">USERIO_LV3</text>
+<text x="370.84" y="182.88" size="1.778" layer="97">USERIO_LV1</text>
+<text x="370.84" y="180.34" size="1.778" layer="97">USERIO_LV7</text>
+<text x="370.84" y="175.26" size="1.778" layer="97">USERIO_LV6</text>
+<text x="312.42" y="175.26" size="1.778" layer="97">PIN_AF17</text>
+<text x="312.42" y="180.34" size="1.778" layer="97">PIN_AF15</text>
+<text x="312.42" y="182.88" size="1.778" layer="97">PIN_AG16</text>
+<text x="312.42" y="185.42" size="1.778" layer="97">PIN_AH11</text>
+<text x="312.42" y="187.96" size="1.778" layer="97">PIN_AH12</text>
+<text x="312.42" y="195.58" size="1.778" layer="97">PIN_AH9</text>
+<text x="312.42" y="198.12" size="1.778" layer="97">PIN_AG11</text>
+<text x="312.42" y="177.8" size="1.778" layer="97">PIN_AE15</text>
+<text x="370.84" y="205.74" size="1.778" layer="97">USERIO NAME...</text>
+<text x="297.18" y="195.58" size="1.778" layer="97">JP2 PIN2</text>
+<text x="297.18" y="193.04" size="1.778" layer="97">JP2 PIN3</text>
+<text x="297.18" y="190.5" size="1.778" layer="97">JP2 PIN4</text>
+<text x="297.18" y="187.96" size="1.778" layer="97">JP2 PIN5</text>
+<text x="297.18" y="185.42" size="1.778" layer="97">JP2 PIN6</text>
+<text x="297.18" y="182.88" size="1.778" layer="97">JP2 PIN7</text>
+<text x="297.18" y="180.34" size="1.778" layer="97">JP2 PIN8</text>
+<text x="297.18" y="177.8" size="1.778" layer="97">JP2 PIN9</text>
+<text x="297.18" y="175.26" size="1.778" layer="97">JP2 PIN10</text>
+<text x="297.18" y="200.66" size="1.778" layer="97">(IOB P7)</text>
+<text x="312.42" y="205.74" size="1.778" layer="97">FPGA PIN...</text>
 </plain>
 <instances>
 <instance part="Q4" gate="G$1" x="236.22" y="177.8" smashed="yes" rot="R270">
@@ -7905,87 +7971,6 @@ the voltage-doubler configuration! -&gt;</text>
 <pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<plain>
-<text x="241.3" y="48.26" size="2.54" layer="94">V01</text>
-<text x="166.624" y="52.324" size="2.54" layer="94"></text>
-<text x="43.18" y="71.12" size="1.778" layer="97">Arduino_IO15</text>
-<text x="43.18" y="68.58" size="1.778" layer="97">Arduino_IO14</text>
-<text x="43.18" y="60.96" size="1.778" layer="97">Arduino_IO13</text>
-<text x="43.18" y="66.04" size="1.778" layer="97">Arduino_VREF</text>
-<text x="43.18" y="58.42" size="1.778" layer="97">Arduino_IO12</text>
-<text x="43.18" y="55.88" size="1.778" layer="97">Arduino_IO11</text>
-<text x="43.18" y="53.34" size="1.778" layer="97">Arduino_IO10</text>
-<text x="43.18" y="50.8" size="1.778" layer="97">Arduino_IO9</text>
-<text x="43.18" y="48.26" size="1.778" layer="97">Arduino_IO8</text>
-<text x="106.68" y="71.12" size="1.778" layer="97">RX</text>
-<text x="106.68" y="68.58" size="1.778" layer="97">TX</text>
-<text x="106.68" y="60.96" size="1.778" layer="97">RTS</text>
-<text x="106.68" y="58.42" size="1.778" layer="97">CTS</text>
-<text x="106.68" y="55.88" size="1.778" layer="97">DTR</text>
-<text x="106.68" y="53.34" size="1.778" layer="97">DSR</text>
-<text x="106.68" y="50.8" size="1.778" layer="97">SOG</text>
-<text x="106.68" y="48.26" size="1.778" layer="97">IO6</text>
-<text x="106.68" y="78.74" size="1.778" layer="97">IOB NAME...</text>
-<text x="43.18" y="63.5" size="1.778" layer="97">GND</text>
-<text x="124.46" y="71.12" size="1.778" layer="97">2. D-</text>
-<text x="124.46" y="68.58" size="1.778" layer="97">3. D+</text>
-<text x="124.46" y="63.5" size="1.778" layer="97">4. GND</text>
-<text x="124.46" y="73.66" size="1.778" layer="97">1. VBUS</text>
-<text x="124.46" y="48.26" size="1.778" layer="97">5. SSRX-</text>
-<text x="124.46" y="60.96" size="1.778" layer="97">6. SSRX+</text>
-<text x="124.46" y="58.42" size="1.778" layer="97">7. GND_DRAIN</text>
-<text x="124.46" y="55.88" size="1.778" layer="97">8. SSTX-</text>
-<text x="124.46" y="53.34" size="1.778" layer="97">9. SSTX+</text>
-<text x="124.46" y="78.74" size="1.778" layer="97">"USB 3.0" SKT...</text>
-<text x="43.18" y="78.74" size="1.778" layer="97">DE10 Name...</text>
-<text x="106.68" y="73.66" size="1.778" layer="97">5V</text>
-<text x="63.5" y="78.74" size="1.778" layer="97">Core name...</text>
-<text x="63.5" y="48.26" size="1.778" layer="97">USER_IO[6]</text>
-<text x="63.5" y="53.34" size="1.778" layer="97">USER_IO[5]</text>
-<text x="63.5" y="55.88" size="1.778" layer="97">USER_IO[4]</text>
-<text x="63.5" y="58.42" size="1.778" layer="97">USER_IO[3]</text>
-<text x="63.5" y="60.96" size="1.778" layer="97">USER_IO[2]</text>
-<text x="63.5" y="68.58" size="1.778" layer="97">USER_IO[1]</text>
-<text x="63.5" y="71.12" size="1.778" layer="97">USER_IO[0]</text>
-<text x="10.16" y="71.12" size="1.778" layer="97">JP2 PIN1</text>
-<text x="83.82" y="71.12" size="1.778" layer="97">USERIO_LV2</text>
-<text x="83.82" y="68.58" size="1.778" layer="97">USERIO_LV4</text>
-<text x="83.82" y="60.96" size="1.778" layer="97">USERIO_LV5</text>
-<text x="83.82" y="58.42" size="1.778" layer="97">USERIO_LV3</text>
-<text x="83.82" y="55.88" size="1.778" layer="97">USERIO_LV1</text>
-<text x="83.82" y="53.34" size="1.778" layer="97">USERIO_LV7</text>
-<text x="83.82" y="48.26" size="1.778" layer="97">USERIO_LV6</text>
-<text x="25.4" y="48.26" size="1.778" layer="97">PIN_AF17</text>
-<text x="25.4" y="53.34" size="1.778" layer="97">PIN_AF15</text>
-<text x="25.4" y="55.88" size="1.778" layer="97">PIN_AG16</text>
-<text x="25.4" y="58.42" size="1.778" layer="97">PIN_AH11</text>
-<text x="25.4" y="60.96" size="1.778" layer="97">PIN_AH12</text>
-<text x="25.4" y="68.58" size="1.778" layer="97">PIN_AH9</text>
-<text x="25.4" y="71.12" size="1.778" layer="97">PIN_AG11</text>
-<text x="25.4" y="50.8" size="1.778" layer="97">PIN_AE15</text>
-<text x="83.82" y="78.74" size="1.778" layer="97">USERIO NAME...</text>
-<text x="10.16" y="68.58" size="1.778" layer="97">JP2 PIN2</text>
-<text x="10.16" y="66.04" size="1.778" layer="97">JP2 PIN3</text>
-<text x="10.16" y="63.5" size="1.778" layer="97">JP2 PIN4</text>
-<text x="10.16" y="60.96" size="1.778" layer="97">JP2 PIN5</text>
-<text x="10.16" y="58.42" size="1.778" layer="97">JP2 PIN6</text>
-<text x="10.16" y="55.88" size="1.778" layer="97">JP2 PIN7</text>
-<text x="10.16" y="53.34" size="1.778" layer="97">JP2 PIN8</text>
-<text x="10.16" y="50.8" size="1.778" layer="97">JP2 PIN9</text>
-<text x="10.16" y="48.26" size="1.778" layer="97">JP2 PIN10</text>
-<text x="10.16" y="73.66" size="1.778" layer="97">(IOB P7)</text>
-<text x="25.4" y="78.74" size="1.778" layer="97">FPGA PIN...</text>
-</plain>
-<instances>
-<instance part="FRAME2" gate="G$1" x="0" y="40.64"/>
-<instance part="FRAME2" gate="G$2" x="147.32" y="40.64"/>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 </sheets>
