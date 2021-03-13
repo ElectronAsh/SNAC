@@ -10,7 +10,6 @@ C3   10nF         C_0805           C0805        NON-POLARIZED CAP               
 C4   22uF         C_0805           C0805        NON-POLARIZED CAP                        digikey 399-4696-1-ND
 C5   22uF         C_0805           C0805        NON-POLARIZED CAP                        digikey 399-4696-1-ND
 D1   MBRA340T3    MBRA340T3        SMA          Schottky Diode                           digikey 2156-MBRA340T3G-OS-ND
-D2   BAT54        BAT54            SOT23        Schottky Diode                           digikey BAT54LT1GOSCT-ND
 IC1  MAX660MX     MAX660           SO8          Charge Pump IC                           digikey MAX660MX/NOPBCT-ND
 IC2  4030D        4030D            SO14         Quad XOR                                 digikey 296-14263-5-ND
 Q9   BC849SMD     BC849SMD         SOT23-BEC    NPN Transistor                           digikey BC847C-TPCT-ND
