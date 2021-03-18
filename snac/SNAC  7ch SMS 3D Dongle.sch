@@ -6169,7 +6169,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="K2" library="Wuerth_Elektronik_eiCan_Communication_Connectors_STENCIL" deviceset="692112030100" device=""/>
 <part name="IC2" library="40xx" deviceset="4030" device="D"/>
 <part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="75K"/>
-<part name="C3" library="rc-master-smd" deviceset="C_" device="0805" value="10nF"/>
+<part name="C3" library="rc-master-smd" deviceset="C_" device="0805" value="47nF"/>
 <part name="Q9" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC849*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2"/>
 <part name="R19" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R20" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
@@ -6180,6 +6180,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D1" library="diode" deviceset="MBRA340T3" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="100uF"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="100uF"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -6261,12 +6262,12 @@ the voltage-doubler configuration! -&gt;</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="40.64"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="40.64"/>
-<instance part="K2" gate="G$1" x="91.44" y="116.84" rot="MR0"/>
+<instance part="K2" gate="G$1" x="83.82" y="116.84" rot="MR0"/>
 <instance part="IC2" gate="A" x="195.58" y="187.96"/>
 <instance part="IC2" gate="B" x="223.52" y="172.72"/>
 <instance part="IC2" gate="C" x="223.52" y="154.94"/>
 <instance part="IC2" gate="D" x="162.56" y="185.42"/>
-<instance part="R17" gate="G$1" x="162.56" y="172.72"/>
+<instance part="R17" gate="G$1" x="162.56" y="170.18"/>
 <instance part="C3" gate="G$1" x="177.8" y="157.48"/>
 <instance part="Q9" gate="G$1" x="200.66" y="139.7"/>
 <instance part="R19" gate="G$1" x="195.58" y="170.18"/>
@@ -6279,6 +6280,7 @@ the voltage-doubler configuration! -&gt;</text>
 <instance part="D1" gate="G$1" x="66.04" y="200.66"/>
 <instance part="C2" gate="G$1" x="91.44" y="193.04"/>
 <instance part="C1" gate="G$1" x="43.18" y="182.88" rot="MR0"/>
+<instance part="R1" gate="G$1" x="177.8" y="177.8" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6286,8 +6288,9 @@ the voltage-doubler configuration! -&gt;</text>
 <net name="HV" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="VBUS"/>
-<wire x1="104.14" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <label x="109.22" y="121.92" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="22.86" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -6310,44 +6313,50 @@ the voltage-doubler configuration! -&gt;</text>
 <net name="LV2" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="D-"/>
-<wire x1="104.14" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
 <label x="109.22" y="119.38" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LV1" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="STDA_SSTX-"/>
-<wire x1="104.14" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
 <label x="109.22" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LV4" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="D+"/>
-<wire x1="104.14" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 <label x="109.22" y="116.84" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LV3" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="GND_DRAIN"/>
-<wire x1="104.14" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 <label x="109.22" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LV5" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="STDA_SSRX+"/>
-<wire x1="104.14" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <label x="109.22" y="109.22" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LV6" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="STDA_SSRX-"/>
-<wire x1="104.14" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
 <label x="109.22" y="111.76" size="1.27" layer="95" xref="yes"/>
 <label x="162.56" y="139.7" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="99.06" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -6358,17 +6367,19 @@ the voltage-doubler configuration! -&gt;</text>
 <net name="LV7" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="STDA_SSTX+"/>
-<wire x1="104.14" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <label x="109.22" y="101.6" size="1.27" layer="95" xref="yes"/>
+<label x="99.06" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="GND"/>
-<wire x1="104.14" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 <label x="109.22" y="114.3" size="1.27" layer="95" xref="yes"/>
 <label x="203.2" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 <label x="142.24" y="162.56" size="1.27" layer="95" rot="R270" xref="yes"/>
+<label x="99.06" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q9" gate="G$1" pin="E"/>
@@ -6407,19 +6418,15 @@ the voltage-doubler configuration! -&gt;</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC2" gate="D" pin="O"/>
-<pinref part="IC2" gate="A" pin="I1"/>
-<wire x1="170.18" y1="185.42" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="185.42" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="172.72" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="172.72" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
-<junction x="175.26" y="185.42"/>
+<wire x1="167.64" y1="170.18" x2="172.72" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="157.48" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="157.48" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-<junction x="172.72" y="172.72"/>
+<wire x1="172.72" y1="157.48" x2="172.72" y2="170.18" width="0.1524" layer="91"/>
+<junction x="172.72" y="170.18"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="170.18" x2="177.8" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="170.18" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TIP" class="0">
@@ -6467,8 +6474,8 @@ the voltage-doubler configuration! -&gt;</text>
 <pinref part="IC2" gate="D" pin="I1"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="182.88" x2="154.94" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="172.72" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="172.72" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="170.18" x2="152.4" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="170.18" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -6551,9 +6558,29 @@ the voltage-doubler configuration! -&gt;</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="I1"/>
+<pinref part="IC2" gate="D" pin="O"/>
+<wire x1="170.18" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="185.42" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="182.88" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
+<junction x="177.8" y="185.42"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,78.74,182.88,OUT,GND,,,,"/>
+<approved hash="104,1,142.24,175.26,IC2P,VSS,GND,,,"/>
+<approved hash="104,1,142.24,190.5,IC2P,VDD,10V,,,"/>
+<approved hash="104,1,53.34,172.72,IC1,GND,HV,,,"/>
+<approved hash="104,1,78.74,187.96,IC1,V+,10V,,,"/>
+<approved hash="202,1,53.34,187.96,IC1,FC,,,,"/>
+<approved hash="113,1,139.596,148.486,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

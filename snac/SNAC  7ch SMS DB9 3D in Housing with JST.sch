@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="11" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="6" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="12" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="11" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="6" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="12" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="11" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1861,413 +1861,6 @@ Stereo jack with two switches. Kycon STX3100, CUI SJ1-3555NG and/or 4UCon 05544<
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="con-thomas-betts" urn="urn:adsk.eagle:library:191">
-<description>&lt;b&gt;Thomas &amp; Betts Connectors&lt;/b&gt;&lt;p&gt;
-Based on Thomas &amp; Betts Catalog &lt;i&gt;Electronioc Interconnects European Edition 1998&lt;/i&gt;.&lt;p&gt;
-Created 10.06.1999&lt;br&gt;
-Packages changed/corrected 22.02.2006 librarian@cadsoft.de&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="H2M09RA" urn="urn:adsk.eagle:footprint:10498/1" library_version="1">
-<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2M09RA29A</description>
-<wire x1="-8.4582" y1="-15.621" x2="-8.4582" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.779" x2="-15.2908" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-9.779" x2="-15.2908" y2="8.255" width="0.254" layer="21"/>
-<wire x1="-7.2644" y1="8.255" x2="7.2644" y2="8.255" width="0.254" layer="51"/>
-<wire x1="15.2908" y1="8.255" x2="15.2908" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-9.779" x2="8.4582" y2="-15.621" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-15.621" x2="-8.4582" y2="-15.621" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="8.255" x2="-7.2898" y2="8.255" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="8.255" x2="7.2898" y2="8.255" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-6.858" x2="15.2908" y2="-6.858" width="0.254" layer="21"/>
-<pad name="1" x="-5.5372" y="7.9248" drill="1.0922"/>
-<pad name="2" x="-2.7686" y="7.9248" drill="1.0922"/>
-<pad name="3" x="0" y="7.9248" drill="1.0922"/>
-<pad name="4" x="2.7686" y="7.9248" drill="1.0922"/>
-<pad name="5" x="5.5372" y="7.9248" drill="1.0922"/>
-<pad name="6" x="-4.1529" y="5.08" drill="1.0922"/>
-<pad name="7" x="-1.3843" y="5.08" drill="1.0922"/>
-<pad name="8" x="1.3843" y="5.08" drill="1.0922"/>
-<pad name="9" x="4.1529" y="5.08" drill="1.0922"/>
-<text x="-6.35" y="10.16" size="1.27" layer="25">&gt;NAME</text>
-<text x="-8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-12.4968" y="-1.905" drill="3.048"/>
-<hole x="12.4968" y="-1.905" drill="3.048"/>
-</package>
-<package name="H2M09ST" urn="urn:adsk.eagle:footprint:10499/1" library_version="1">
-<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2M09ST29x</description>
-<wire x1="6.0198" y1="-3.9116" x2="-6.0198" y2="-3.9116" width="0.254" layer="21"/>
-<wire x1="7.0358" y1="3.9116" x2="-7.0358" y2="3.9116" width="0.254" layer="21"/>
-<wire x1="-6.9088" y1="-3.302" x2="-7.9502" y2="2.5908" width="0.254" layer="21"/>
-<wire x1="-7.9502" y1="2.5908" x2="-7.0358" y2="3.9116" width="0.254" layer="21" curve="-107.683629"/>
-<wire x1="-6.9088" y1="-3.302" x2="-6.0198" y2="-3.9116" width="0.254" layer="21" curve="68.921633"/>
-<wire x1="6.9088" y1="-3.302" x2="7.9502" y2="2.5908" width="0.254" layer="21"/>
-<wire x1="7.0358" y1="3.9116" x2="7.9502" y2="2.5908" width="0.254" layer="21" curve="-107.683629"/>
-<wire x1="6.0198" y1="-3.9116" x2="6.9088" y2="-3.302" width="0.254" layer="21" curve="68.921633"/>
-<wire x1="15.2908" y1="4.6228" x2="15.2908" y2="-4.6228" width="0.254" layer="21"/>
-<wire x1="14.7828" y1="-5.1308" x2="-14.8082" y2="-5.1308" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-4.6482" x2="-15.2908" y2="4.6228" width="0.254" layer="21"/>
-<wire x1="-14.7828" y1="5.1308" x2="14.7828" y2="5.1308" width="0.254" layer="21"/>
-<wire x1="14.7828" y1="5.1308" x2="15.2908" y2="4.6228" width="0.254" layer="21" curve="-90"/>
-<wire x1="-15.2908" y1="4.6228" x2="-14.7828" y2="5.1308" width="0.254" layer="21" curve="-90"/>
-<wire x1="-15.2908" y1="-4.6228" x2="-14.7828" y2="-5.1308" width="0.254" layer="21" curve="90"/>
-<wire x1="14.7828" y1="-5.1308" x2="15.2908" y2="-4.6228" width="0.254" layer="21" curve="90"/>
-<pad name="1" x="-5.5372" y="1.4224" drill="1.0922"/>
-<pad name="2" x="-2.7686" y="1.4224" drill="1.0922"/>
-<pad name="3" x="0" y="1.4224" drill="1.0922"/>
-<pad name="4" x="2.7686" y="1.4224" drill="1.0922"/>
-<pad name="5" x="5.5372" y="1.4224" drill="1.0922"/>
-<pad name="6" x="-4.1529" y="-1.4224" drill="1.0922"/>
-<pad name="7" x="-1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="8" x="1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="9" x="4.1529" y="-1.4224" drill="1.0922"/>
-<text x="-13.97" y="5.715" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.715" y="5.715" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-12.4968" y="0" drill="3.048"/>
-<hole x="12.4968" y="0" drill="3.048"/>
-</package>
-<package name="H2R09RA" urn="urn:adsk.eagle:footprint:10500/1" library_version="1">
-<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2R09RA29A</description>
-<wire x1="-8.4582" y1="-15.621" x2="-8.4582" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.779" x2="-15.2908" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-9.779" x2="-15.2908" y2="8.255" width="0.254" layer="21"/>
-<wire x1="-7.2644" y1="8.255" x2="7.2644" y2="8.255" width="0.254" layer="51"/>
-<wire x1="15.2908" y1="8.255" x2="15.2908" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-9.779" x2="8.4582" y2="-15.621" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-15.621" x2="-8.4582" y2="-15.621" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="8.255" x2="-7.2898" y2="8.255" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="8.255" x2="7.2898" y2="8.255" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-6.858" x2="15.2908" y2="-6.858" width="0.254" layer="21"/>
-<pad name="1" x="5.5372" y="7.9248" drill="1.0922"/>
-<pad name="2" x="2.7686" y="7.9248" drill="1.0922"/>
-<pad name="3" x="0" y="7.9248" drill="1.0922"/>
-<pad name="4" x="-2.7686" y="7.9248" drill="1.0922"/>
-<pad name="5" x="-5.5372" y="7.9248" drill="1.0922"/>
-<pad name="6" x="4.1529" y="5.08" drill="1.0922"/>
-<pad name="7" x="1.3843" y="5.08" drill="1.0922"/>
-<pad name="8" x="-1.3843" y="5.08" drill="1.0922"/>
-<pad name="9" x="-4.1529" y="5.08" drill="1.0922"/>
-<text x="-5.715" y="9.525" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="0.635" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-12.4968" y="-1.905" drill="3.048"/>
-<hole x="12.4968" y="-1.905" drill="3.048"/>
-</package>
-<package name="H2R09ST" urn="urn:adsk.eagle:footprint:10501/1" library_version="1">
-<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2R09ST29x</description>
-<wire x1="6.0198" y1="-3.9116" x2="-6.0198" y2="-3.9116" width="0.254" layer="21"/>
-<wire x1="7.0358" y1="3.9116" x2="-7.0358" y2="3.9116" width="0.254" layer="21"/>
-<wire x1="-6.9088" y1="-3.302" x2="-7.9502" y2="2.5908" width="0.254" layer="21"/>
-<wire x1="-7.9502" y1="2.5908" x2="-7.0358" y2="3.9116" width="0.254" layer="21" curve="-107.683629"/>
-<wire x1="-6.9088" y1="-3.302" x2="-6.0198" y2="-3.9116" width="0.254" layer="21" curve="68.921633"/>
-<wire x1="6.9088" y1="-3.302" x2="7.9502" y2="2.5908" width="0.254" layer="21"/>
-<wire x1="7.0358" y1="3.9116" x2="7.9502" y2="2.5908" width="0.254" layer="21" curve="-107.683629"/>
-<wire x1="6.0198" y1="-3.9116" x2="6.9088" y2="-3.302" width="0.254" layer="21" curve="68.921633"/>
-<wire x1="15.2908" y1="4.6228" x2="15.2908" y2="-4.6228" width="0.254" layer="21"/>
-<wire x1="14.7828" y1="-5.1308" x2="-14.8082" y2="-5.1308" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-4.6482" x2="-15.2908" y2="4.6228" width="0.254" layer="21"/>
-<wire x1="-14.7828" y1="5.1308" x2="14.7828" y2="5.1308" width="0.254" layer="21"/>
-<wire x1="14.7828" y1="5.1308" x2="15.2908" y2="4.6228" width="0.254" layer="21" curve="-90"/>
-<wire x1="-15.2908" y1="4.6228" x2="-14.7828" y2="5.1308" width="0.254" layer="21" curve="-90"/>
-<wire x1="-15.2908" y1="-4.6228" x2="-14.7828" y2="-5.1308" width="0.254" layer="21" curve="90"/>
-<wire x1="14.7828" y1="-5.1308" x2="15.2908" y2="-4.6228" width="0.254" layer="21" curve="90"/>
-<pad name="1" x="5.5372" y="1.4224" drill="1.0922"/>
-<pad name="2" x="2.7686" y="1.4224" drill="1.0922"/>
-<pad name="3" x="0" y="1.4224" drill="1.0922"/>
-<pad name="4" x="-2.7686" y="1.4224" drill="1.0922"/>
-<pad name="5" x="-5.5372" y="1.4224" drill="1.0922"/>
-<pad name="6" x="4.1529" y="-1.4224" drill="1.0922"/>
-<pad name="7" x="1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="8" x="-1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="9" x="-4.1529" y="-1.4224" drill="1.0922"/>
-<text x="-12.7" y="5.715" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.445" y="5.715" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-12.4968" y="0" drill="3.048"/>
-<hole x="12.4968" y="0" drill="3.048"/>
-</package>
-<package name="H3M09RA" urn="urn:adsk.eagle:footprint:10502/1" library_version="1">
-<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H3M09RA29A</description>
-<wire x1="-8.4582" y1="-15.4813" x2="-8.4582" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.3599" x2="-15.2908" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-9.3599" x2="-15.2908" y2="3.9751" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="3.9497" x2="15.2908" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-9.3599" x2="8.4582" y2="-15.4813" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-15.4813" x2="-8.4582" y2="-15.4813" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="3.9751" x2="-7.9248" y2="3.9751" width="0.254" layer="21"/>
-<wire x1="-7.9248" y1="3.9751" x2="-7.9248" y2="-6.2992" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="3.9497" x2="7.9248" y2="3.9497" width="0.254" layer="21"/>
-<wire x1="7.9248" y1="3.9497" x2="7.9248" y2="-6.2992" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-6.4389" x2="15.2908" y2="-6.4389" width="0.254" layer="21"/>
-<pad name="1" x="-5.5372" y="1.4224" drill="1.0922"/>
-<pad name="2" x="-2.7686" y="1.4224" drill="1.0922"/>
-<pad name="3" x="0" y="1.4224" drill="1.0922"/>
-<pad name="4" x="2.7686" y="1.4224" drill="1.0922"/>
-<pad name="5" x="5.5372" y="1.4224" drill="1.0922"/>
-<pad name="6" x="-4.1529" y="-1.4224" drill="1.0922"/>
-<pad name="7" x="-1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="8" x="1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="9" x="4.1529" y="-1.4224" drill="1.0922"/>
-<text x="-6.35" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-10.795" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-12.4968" y="0" drill="3.048"/>
-<hole x="12.4968" y="0" drill="3.048"/>
-</package>
-<package name="H5M09RA" urn="urn:adsk.eagle:footprint:10503/1" library_version="1">
-<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H5M09RA29A</description>
-<wire x1="-8.4582" y1="-15.4813" x2="-8.4582" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.3599" x2="-15.2908" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-9.3599" x2="-15.2908" y2="3.3401" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="3.3147" x2="15.2908" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-9.3599" x2="8.4582" y2="-15.4813" width="0.254" layer="21"/>
-<wire x1="8.4582" y1="-15.4813" x2="-8.4582" y2="-15.4813" width="0.254" layer="21"/>
-<wire x1="-8.4582" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="3.3401" x2="-7.9248" y2="3.3401" width="0.254" layer="21"/>
-<wire x1="-7.9248" y1="3.3401" x2="-7.9248" y2="-6.2992" width="0.254" layer="21"/>
-<wire x1="15.2908" y1="3.3147" x2="7.9248" y2="3.3147" width="0.254" layer="21"/>
-<wire x1="7.9248" y1="3.3147" x2="7.9248" y2="-6.2992" width="0.254" layer="21"/>
-<wire x1="-15.2908" y1="-6.4389" x2="15.2908" y2="-6.4389" width="0.254" layer="21"/>
-<pad name="1" x="-5.5372" y="1.4224" drill="1.0922"/>
-<pad name="2" x="-2.7686" y="1.4224" drill="1.0922"/>
-<pad name="3" x="0" y="1.4224" drill="1.0922"/>
-<pad name="4" x="2.7686" y="1.4224" drill="1.0922"/>
-<pad name="5" x="5.5372" y="1.4224" drill="1.0922"/>
-<pad name="6" x="-4.1529" y="-1.4224" drill="1.0922"/>
-<pad name="7" x="-1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="8" x="1.3843" y="-1.4224" drill="1.0922"/>
-<pad name="9" x="4.1529" y="-1.4224" drill="1.0922"/>
-<text x="-5.715" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-11.43" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-12.4968" y="0" drill="3.048"/>
-<hole x="12.4968" y="0" drill="3.048"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="H2M09RA" urn="urn:adsk.eagle:package:10555/1" type="box" library_version="1">
-<description>THOMAS&amp;BETTS H2M09RA29A</description>
-<packageinstances>
-<packageinstance name="H2M09RA"/>
-</packageinstances>
-</package3d>
-<package3d name="H2M09ST" urn="urn:adsk.eagle:package:10567/1" type="box" library_version="1">
-<description>THOMAS&amp;BETTS H2M09ST29x</description>
-<packageinstances>
-<packageinstance name="H2M09ST"/>
-</packageinstances>
-</package3d>
-<package3d name="H2R09RA" urn="urn:adsk.eagle:package:10562/1" type="box" library_version="1">
-<description>THOMAS&amp;BETTS H2R09RA29A</description>
-<packageinstances>
-<packageinstance name="H2R09RA"/>
-</packageinstances>
-</package3d>
-<package3d name="H2R09ST" urn="urn:adsk.eagle:package:10556/1" type="box" library_version="1">
-<description>THOMAS&amp;BETTS H2R09ST29x</description>
-<packageinstances>
-<packageinstance name="H2R09ST"/>
-</packageinstances>
-</package3d>
-<package3d name="H3M09RA" urn="urn:adsk.eagle:package:10558/1" type="box" library_version="1">
-<description>THOMAS&amp;BETTS H3M09RA29A</description>
-<packageinstances>
-<packageinstance name="H3M09RA"/>
-</packageinstances>
-</package3d>
-<package3d name="H5M09RA" urn="urn:adsk.eagle:package:10559/1" type="box" library_version="1">
-<description>THOMAS&amp;BETTS H5M09RA29A</description>
-<packageinstances>
-<packageinstance name="H5M09RA"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="FV" urn="urn:adsk.eagle:symbol:10475/1" library_version="1">
-<wire x1="0.889" y1="0.889" x2="0.889" y2="-0.889" width="0.254" layer="94" curve="180" cap="flat"/>
-<text x="1.27" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="F" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="F" urn="urn:adsk.eagle:symbol:10474/1" library_version="1">
-<wire x1="0.889" y1="0.889" x2="0.889" y2="-0.889" width="0.254" layer="94" curve="180" cap="flat"/>
-<text x="1.27" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
-<pin name="F" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="D-SUB9-" urn="urn:adsk.eagle:component:10604/2" prefix="X" library_version="1">
-<description>&lt;b&gt;D-Subminiatur Connector&lt;/b&gt;&lt;p&gt;
-Source: Electronioc Interconnects European Edition 1998</description>
-<gates>
-<gate name="-1" symbol="FV" x="-2.54" y="10.16" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="F" x="-2.54" y="7.62" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="F" x="-2.54" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="F" x="-2.54" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-5" symbol="F" x="-2.54" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-6" symbol="F" x="-2.54" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-7" symbol="F" x="-2.54" y="-5.08" addlevel="always" swaplevel="1"/>
-<gate name="-8" symbol="F" x="-2.54" y="-7.62" addlevel="always" swaplevel="1"/>
-<gate name="-9" symbol="F" x="-2.54" y="-10.16" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="H2M09RA" package="H2M09RA">
-<connects>
-<connect gate="-1" pin="F" pad="1"/>
-<connect gate="-2" pin="F" pad="2"/>
-<connect gate="-3" pin="F" pad="3"/>
-<connect gate="-4" pin="F" pad="4"/>
-<connect gate="-5" pin="F" pad="5"/>
-<connect gate="-6" pin="F" pad="6"/>
-<connect gate="-7" pin="F" pad="7"/>
-<connect gate="-8" pin="F" pad="8"/>
-<connect gate="-9" pin="F" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10555/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="H2M09ST" package="H2M09ST">
-<connects>
-<connect gate="-1" pin="F" pad="1"/>
-<connect gate="-2" pin="F" pad="2"/>
-<connect gate="-3" pin="F" pad="3"/>
-<connect gate="-4" pin="F" pad="4"/>
-<connect gate="-5" pin="F" pad="5"/>
-<connect gate="-6" pin="F" pad="6"/>
-<connect gate="-7" pin="F" pad="7"/>
-<connect gate="-8" pin="F" pad="8"/>
-<connect gate="-9" pin="F" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10567/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="5" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="H2R09RA" package="H2R09RA">
-<connects>
-<connect gate="-1" pin="F" pad="1"/>
-<connect gate="-2" pin="F" pad="2"/>
-<connect gate="-3" pin="F" pad="3"/>
-<connect gate="-4" pin="F" pad="4"/>
-<connect gate="-5" pin="F" pad="5"/>
-<connect gate="-6" pin="F" pad="6"/>
-<connect gate="-7" pin="F" pad="7"/>
-<connect gate="-8" pin="F" pad="8"/>
-<connect gate="-9" pin="F" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10562/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="H2R09ST" package="H2R09ST">
-<connects>
-<connect gate="-1" pin="F" pad="1"/>
-<connect gate="-2" pin="F" pad="2"/>
-<connect gate="-3" pin="F" pad="3"/>
-<connect gate="-4" pin="F" pad="4"/>
-<connect gate="-5" pin="F" pad="5"/>
-<connect gate="-6" pin="F" pad="6"/>
-<connect gate="-7" pin="F" pad="7"/>
-<connect gate="-8" pin="F" pad="8"/>
-<connect gate="-9" pin="F" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10556/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="H3M09RA" package="H3M09RA">
-<connects>
-<connect gate="-1" pin="F" pad="1"/>
-<connect gate="-2" pin="F" pad="2"/>
-<connect gate="-3" pin="F" pad="3"/>
-<connect gate="-4" pin="F" pad="4"/>
-<connect gate="-5" pin="F" pad="5"/>
-<connect gate="-6" pin="F" pad="6"/>
-<connect gate="-7" pin="F" pad="7"/>
-<connect gate="-8" pin="F" pad="8"/>
-<connect gate="-9" pin="F" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10558/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="H5M09RA" package="H5M09RA">
-<connects>
-<connect gate="-1" pin="F" pad="1"/>
-<connect gate="-2" pin="F" pad="2"/>
-<connect gate="-3" pin="F" pad="3"/>
-<connect gate="-4" pin="F" pad="4"/>
-<connect gate="-5" pin="F" pad="5"/>
-<connect gate="-6" pin="F" pad="6"/>
-<connect gate="-7" pin="F" pad="7"/>
-<connect gate="-8" pin="F" pad="8"/>
-<connect gate="-9" pin="F" pad="9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10559/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="1" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -6962,6 +6555,351 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-thomas-betts">
+<description>&lt;b&gt;Thomas &amp; Betts Connectors&lt;/b&gt;&lt;p&gt;
+Based on Thomas &amp; Betts Catalog &lt;i&gt;Electronioc Interconnects European Edition 1998&lt;/i&gt;.&lt;p&gt;
+Created 10.06.1999&lt;br&gt;
+Packages changed/corrected 22.02.2006 librarian@cadsoft.de&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="H2M09RA">
+<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2M09RA29A</description>
+<wire x1="-8.4582" y1="-15.621" x2="-8.4582" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.779" x2="-15.2908" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-9.779" x2="-15.2908" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-7.2644" y1="8.255" x2="7.2644" y2="8.255" width="0.254" layer="51"/>
+<wire x1="15.2908" y1="8.255" x2="15.2908" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-9.779" x2="8.4582" y2="-15.621" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-15.621" x2="-8.4582" y2="-15.621" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="8.255" x2="-7.2898" y2="8.255" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="8.255" x2="7.2898" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-6.858" x2="15.2908" y2="-6.858" width="0.254" layer="21"/>
+<pad name="1" x="-5.5372" y="7.9248" drill="1.0922"/>
+<pad name="2" x="-2.7686" y="7.9248" drill="1.0922"/>
+<pad name="3" x="0" y="7.9248" drill="1.0922"/>
+<pad name="4" x="2.7686" y="7.9248" drill="1.0922"/>
+<pad name="5" x="5.5372" y="7.9248" drill="1.0922"/>
+<pad name="6" x="-4.1529" y="5.08" drill="1.0922"/>
+<pad name="7" x="-1.3843" y="5.08" drill="1.0922"/>
+<pad name="8" x="1.3843" y="5.08" drill="1.0922"/>
+<pad name="9" x="4.1529" y="5.08" drill="1.0922"/>
+<text x="-6.35" y="10.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-12.4968" y="-1.905" drill="3.048"/>
+<hole x="12.4968" y="-1.905" drill="3.048"/>
+</package>
+<package name="H2M09ST">
+<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2M09ST29x</description>
+<wire x1="6.0198" y1="-3.9116" x2="-6.0198" y2="-3.9116" width="0.254" layer="21"/>
+<wire x1="7.0358" y1="3.9116" x2="-7.0358" y2="3.9116" width="0.254" layer="21"/>
+<wire x1="-6.9088" y1="-3.302" x2="-7.9502" y2="2.5908" width="0.254" layer="21"/>
+<wire x1="-7.9502" y1="2.5908" x2="-7.0358" y2="3.9116" width="0.254" layer="21" curve="-107.683629"/>
+<wire x1="-6.9088" y1="-3.302" x2="-6.0198" y2="-3.9116" width="0.254" layer="21" curve="68.921633"/>
+<wire x1="6.9088" y1="-3.302" x2="7.9502" y2="2.5908" width="0.254" layer="21"/>
+<wire x1="7.0358" y1="3.9116" x2="7.9502" y2="2.5908" width="0.254" layer="21" curve="-107.683629"/>
+<wire x1="6.0198" y1="-3.9116" x2="6.9088" y2="-3.302" width="0.254" layer="21" curve="68.921633"/>
+<wire x1="15.2908" y1="4.6228" x2="15.2908" y2="-4.6228" width="0.254" layer="21"/>
+<wire x1="14.7828" y1="-5.1308" x2="-14.8082" y2="-5.1308" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-4.6482" x2="-15.2908" y2="4.6228" width="0.254" layer="21"/>
+<wire x1="-14.7828" y1="5.1308" x2="14.7828" y2="5.1308" width="0.254" layer="21"/>
+<wire x1="14.7828" y1="5.1308" x2="15.2908" y2="4.6228" width="0.254" layer="21" curve="-90"/>
+<wire x1="-15.2908" y1="4.6228" x2="-14.7828" y2="5.1308" width="0.254" layer="21" curve="-90"/>
+<wire x1="-15.2908" y1="-4.6228" x2="-14.7828" y2="-5.1308" width="0.254" layer="21" curve="90"/>
+<wire x1="14.7828" y1="-5.1308" x2="15.2908" y2="-4.6228" width="0.254" layer="21" curve="90"/>
+<pad name="1" x="-5.5372" y="1.4224" drill="1.0922"/>
+<pad name="2" x="-2.7686" y="1.4224" drill="1.0922"/>
+<pad name="3" x="0" y="1.4224" drill="1.0922"/>
+<pad name="4" x="2.7686" y="1.4224" drill="1.0922"/>
+<pad name="5" x="5.5372" y="1.4224" drill="1.0922"/>
+<pad name="6" x="-4.1529" y="-1.4224" drill="1.0922"/>
+<pad name="7" x="-1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="8" x="1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="9" x="4.1529" y="-1.4224" drill="1.0922"/>
+<text x="-13.97" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.715" y="5.715" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-12.4968" y="0" drill="3.048"/>
+<hole x="12.4968" y="0" drill="3.048"/>
+</package>
+<package name="H2R09RA">
+<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2R09RA29A</description>
+<wire x1="-8.4582" y1="-15.621" x2="-8.4582" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.779" x2="-15.2908" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-9.779" x2="-15.2908" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-7.2644" y1="8.255" x2="7.2644" y2="8.255" width="0.254" layer="51"/>
+<wire x1="15.2908" y1="8.255" x2="15.2908" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-9.779" x2="8.4582" y2="-15.621" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-15.621" x2="-8.4582" y2="-15.621" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.779" x2="8.4582" y2="-9.779" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="8.255" x2="-7.2898" y2="8.255" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="8.255" x2="7.2898" y2="8.255" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-6.858" x2="15.2908" y2="-6.858" width="0.254" layer="21"/>
+<pad name="1" x="5.5372" y="7.9248" drill="1.0922"/>
+<pad name="2" x="2.7686" y="7.9248" drill="1.0922"/>
+<pad name="3" x="0" y="7.9248" drill="1.0922"/>
+<pad name="4" x="-2.7686" y="7.9248" drill="1.0922"/>
+<pad name="5" x="-5.5372" y="7.9248" drill="1.0922"/>
+<pad name="6" x="4.1529" y="5.08" drill="1.0922"/>
+<pad name="7" x="1.3843" y="5.08" drill="1.0922"/>
+<pad name="8" x="-1.3843" y="5.08" drill="1.0922"/>
+<pad name="9" x="-4.1529" y="5.08" drill="1.0922"/>
+<text x="-5.715" y="9.525" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="0.635" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-12.4968" y="-1.905" drill="3.048"/>
+<hole x="12.4968" y="-1.905" drill="3.048"/>
+</package>
+<package name="H2R09ST">
+<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2R09ST29x</description>
+<wire x1="6.0198" y1="-3.9116" x2="-6.0198" y2="-3.9116" width="0.254" layer="21"/>
+<wire x1="7.0358" y1="3.9116" x2="-7.0358" y2="3.9116" width="0.254" layer="21"/>
+<wire x1="-6.9088" y1="-3.302" x2="-7.9502" y2="2.5908" width="0.254" layer="21"/>
+<wire x1="-7.9502" y1="2.5908" x2="-7.0358" y2="3.9116" width="0.254" layer="21" curve="-107.683629"/>
+<wire x1="-6.9088" y1="-3.302" x2="-6.0198" y2="-3.9116" width="0.254" layer="21" curve="68.921633"/>
+<wire x1="6.9088" y1="-3.302" x2="7.9502" y2="2.5908" width="0.254" layer="21"/>
+<wire x1="7.0358" y1="3.9116" x2="7.9502" y2="2.5908" width="0.254" layer="21" curve="-107.683629"/>
+<wire x1="6.0198" y1="-3.9116" x2="6.9088" y2="-3.302" width="0.254" layer="21" curve="68.921633"/>
+<wire x1="15.2908" y1="4.6228" x2="15.2908" y2="-4.6228" width="0.254" layer="21"/>
+<wire x1="14.7828" y1="-5.1308" x2="-14.8082" y2="-5.1308" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-4.6482" x2="-15.2908" y2="4.6228" width="0.254" layer="21"/>
+<wire x1="-14.7828" y1="5.1308" x2="14.7828" y2="5.1308" width="0.254" layer="21"/>
+<wire x1="14.7828" y1="5.1308" x2="15.2908" y2="4.6228" width="0.254" layer="21" curve="-90"/>
+<wire x1="-15.2908" y1="4.6228" x2="-14.7828" y2="5.1308" width="0.254" layer="21" curve="-90"/>
+<wire x1="-15.2908" y1="-4.6228" x2="-14.7828" y2="-5.1308" width="0.254" layer="21" curve="90"/>
+<wire x1="14.7828" y1="-5.1308" x2="15.2908" y2="-4.6228" width="0.254" layer="21" curve="90"/>
+<pad name="1" x="5.5372" y="1.4224" drill="1.0922"/>
+<pad name="2" x="2.7686" y="1.4224" drill="1.0922"/>
+<pad name="3" x="0" y="1.4224" drill="1.0922"/>
+<pad name="4" x="-2.7686" y="1.4224" drill="1.0922"/>
+<pad name="5" x="-5.5372" y="1.4224" drill="1.0922"/>
+<pad name="6" x="4.1529" y="-1.4224" drill="1.0922"/>
+<pad name="7" x="1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="8" x="-1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="9" x="-4.1529" y="-1.4224" drill="1.0922"/>
+<text x="-12.7" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.445" y="5.715" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-12.4968" y="0" drill="3.048"/>
+<hole x="12.4968" y="0" drill="3.048"/>
+</package>
+<package name="H3M09RA">
+<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H3M09RA29A</description>
+<wire x1="-8.4582" y1="-15.4813" x2="-8.4582" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.3599" x2="-15.2908" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-9.3599" x2="-15.2908" y2="3.9751" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="3.9497" x2="15.2908" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-9.3599" x2="8.4582" y2="-15.4813" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-15.4813" x2="-8.4582" y2="-15.4813" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="3.9751" x2="-7.9248" y2="3.9751" width="0.254" layer="21"/>
+<wire x1="-7.9248" y1="3.9751" x2="-7.9248" y2="-6.2992" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="3.9497" x2="7.9248" y2="3.9497" width="0.254" layer="21"/>
+<wire x1="7.9248" y1="3.9497" x2="7.9248" y2="-6.2992" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-6.4389" x2="15.2908" y2="-6.4389" width="0.254" layer="21"/>
+<pad name="1" x="-5.5372" y="1.4224" drill="1.0922"/>
+<pad name="2" x="-2.7686" y="1.4224" drill="1.0922"/>
+<pad name="3" x="0" y="1.4224" drill="1.0922"/>
+<pad name="4" x="2.7686" y="1.4224" drill="1.0922"/>
+<pad name="5" x="5.5372" y="1.4224" drill="1.0922"/>
+<pad name="6" x="-4.1529" y="-1.4224" drill="1.0922"/>
+<pad name="7" x="-1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="8" x="1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="9" x="4.1529" y="-1.4224" drill="1.0922"/>
+<text x="-6.35" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.795" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-12.4968" y="0" drill="3.048"/>
+<hole x="12.4968" y="0" drill="3.048"/>
+</package>
+<package name="H5M09RA">
+<description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H5M09RA29A</description>
+<wire x1="-8.4582" y1="-15.4813" x2="-8.4582" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.3599" x2="-15.2908" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-9.3599" x2="-15.2908" y2="3.3401" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="3.3147" x2="15.2908" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-9.3599" x2="8.4582" y2="-15.4813" width="0.254" layer="21"/>
+<wire x1="8.4582" y1="-15.4813" x2="-8.4582" y2="-15.4813" width="0.254" layer="21"/>
+<wire x1="-8.4582" y1="-9.3599" x2="8.4582" y2="-9.3599" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="3.3401" x2="-7.9248" y2="3.3401" width="0.254" layer="21"/>
+<wire x1="-7.9248" y1="3.3401" x2="-7.9248" y2="-6.2992" width="0.254" layer="21"/>
+<wire x1="15.2908" y1="3.3147" x2="7.9248" y2="3.3147" width="0.254" layer="21"/>
+<wire x1="7.9248" y1="3.3147" x2="7.9248" y2="-6.2992" width="0.254" layer="21"/>
+<wire x1="-15.2908" y1="-6.4389" x2="15.2908" y2="-6.4389" width="0.254" layer="21"/>
+<pad name="1" x="-5.5372" y="1.4224" drill="1.0922"/>
+<pad name="2" x="-2.7686" y="1.4224" drill="1.0922"/>
+<pad name="3" x="0" y="1.4224" drill="1.0922"/>
+<pad name="4" x="2.7686" y="1.4224" drill="1.0922"/>
+<pad name="5" x="5.5372" y="1.4224" drill="1.0922"/>
+<pad name="6" x="-4.1529" y="-1.4224" drill="1.0922"/>
+<pad name="7" x="-1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="8" x="1.3843" y="-1.4224" drill="1.0922"/>
+<pad name="9" x="4.1529" y="-1.4224" drill="1.0922"/>
+<text x="-5.715" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11.43" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="GND@1" x="-12.4968" y="0" drill="3.048"/>
+<pad name="GND@2" x="12.4968" y="0" drill="3.048"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FV">
+<wire x1="0.889" y1="0.889" x2="0.889" y2="-0.889" width="0.254" layer="94" curve="180" cap="flat"/>
+<text x="1.27" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="F" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="F">
+<wire x1="0.889" y1="0.889" x2="0.889" y2="-0.889" width="0.254" layer="94" curve="180" cap="flat"/>
+<text x="1.27" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
+<pin name="F" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="D-SUB9-" prefix="X">
+<description>&lt;b&gt;D-Subminiatur Connector&lt;/b&gt;&lt;p&gt;
+Source: Electronioc Interconnects European Edition 1998</description>
+<gates>
+<gate name="-1" symbol="FV" x="-2.54" y="10.16" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="F" x="-2.54" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="F" x="-2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="F" x="-2.54" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="F" x="-2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="F" x="-2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-7" symbol="F" x="-2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-8" symbol="F" x="-2.54" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="-9" symbol="F" x="-2.54" y="-10.16" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="H2M09RA" package="H2M09RA">
+<connects>
+<connect gate="-1" pin="F" pad="1"/>
+<connect gate="-2" pin="F" pad="2"/>
+<connect gate="-3" pin="F" pad="3"/>
+<connect gate="-4" pin="F" pad="4"/>
+<connect gate="-5" pin="F" pad="5"/>
+<connect gate="-6" pin="F" pad="6"/>
+<connect gate="-7" pin="F" pad="7"/>
+<connect gate="-8" pin="F" pad="8"/>
+<connect gate="-9" pin="F" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="H2M09ST" package="H2M09ST">
+<connects>
+<connect gate="-1" pin="F" pad="1"/>
+<connect gate="-2" pin="F" pad="2"/>
+<connect gate="-3" pin="F" pad="3"/>
+<connect gate="-4" pin="F" pad="4"/>
+<connect gate="-5" pin="F" pad="5"/>
+<connect gate="-6" pin="F" pad="6"/>
+<connect gate="-7" pin="F" pad="7"/>
+<connect gate="-8" pin="F" pad="8"/>
+<connect gate="-9" pin="F" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="H2R09RA" package="H2R09RA">
+<connects>
+<connect gate="-1" pin="F" pad="1"/>
+<connect gate="-2" pin="F" pad="2"/>
+<connect gate="-3" pin="F" pad="3"/>
+<connect gate="-4" pin="F" pad="4"/>
+<connect gate="-5" pin="F" pad="5"/>
+<connect gate="-6" pin="F" pad="6"/>
+<connect gate="-7" pin="F" pad="7"/>
+<connect gate="-8" pin="F" pad="8"/>
+<connect gate="-9" pin="F" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="H2R09ST" package="H2R09ST">
+<connects>
+<connect gate="-1" pin="F" pad="1"/>
+<connect gate="-2" pin="F" pad="2"/>
+<connect gate="-3" pin="F" pad="3"/>
+<connect gate="-4" pin="F" pad="4"/>
+<connect gate="-5" pin="F" pad="5"/>
+<connect gate="-6" pin="F" pad="6"/>
+<connect gate="-7" pin="F" pad="7"/>
+<connect gate="-8" pin="F" pad="8"/>
+<connect gate="-9" pin="F" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="H3M09RA" package="H3M09RA">
+<connects>
+<connect gate="-1" pin="F" pad="1"/>
+<connect gate="-2" pin="F" pad="2"/>
+<connect gate="-3" pin="F" pad="3"/>
+<connect gate="-4" pin="F" pad="4"/>
+<connect gate="-5" pin="F" pad="5"/>
+<connect gate="-6" pin="F" pad="6"/>
+<connect gate="-7" pin="F" pad="7"/>
+<connect gate="-8" pin="F" pad="8"/>
+<connect gate="-9" pin="F" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="H5M09RA" package="H5M09RA">
+<connects>
+<connect gate="-1" pin="F" pad="1"/>
+<connect gate="-2" pin="F" pad="2"/>
+<connect gate="-3" pin="F" pad="3"/>
+<connect gate="-4" pin="F" pad="4"/>
+<connect gate="-5" pin="F" pad="5"/>
+<connect gate="-6" pin="F" pad="6"/>
+<connect gate="-7" pin="F" pad="7"/>
+<connect gate="-8" pin="F" pad="8"/>
+<connect gate="-9" pin="F" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7019,13 +6957,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U1" library="PMIC-LDO-XC6206P332MR-G_SOT23_" deviceset="PMIC-LDO-XC6206P332MR-G(SOT23)" device=""/>
 <part name="IC1" library="40xx" deviceset="4030" device="D"/>
 <part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="75K"/>
-<part name="C3" library="rc-master-smd" deviceset="C_" device="0805" value="10nF"/>
+<part name="C3" library="rc-master-smd" deviceset="C_" device="0805" value="47nF"/>
 <part name="Q9" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC849*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2"/>
 <part name="R19" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R20" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="C4" library="rc-master-smd" deviceset="C_" device="0805" value="22uF"/>
 <part name="X2" library="adafruit" deviceset="STEREOJACK" device=""/>
-<part name="X3" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" deviceset="D-SUB9-" device="H5M09RA" package3d_urn="urn:adsk.eagle:package:10559/1"/>
 <part name="X4" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-09-PIN" device="-LONG-PAD"/>
 <part name="X5" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-09-PIN" device="-LONG-PAD"/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
@@ -7034,6 +6971,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D1" library="diode" deviceset="MBRA340T3" device=""/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="100uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="100uF"/>
+<part name="X6" library="con-thomas-betts" deviceset="D-SUB9-" device="H5M09RA"/>
+<part name="R18" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -7234,23 +7173,14 @@ the voltage-doubler configuration! -&gt;</text>
 <instance part="IC1" gate="B" x="388.62" y="71.12"/>
 <instance part="IC1" gate="C" x="388.62" y="53.34"/>
 <instance part="IC1" gate="D" x="327.66" y="83.82"/>
-<instance part="R17" gate="G$1" x="327.66" y="71.12"/>
-<instance part="C3" gate="G$1" x="342.9" y="55.88"/>
+<instance part="R17" gate="G$1" x="327.66" y="68.58"/>
+<instance part="C3" gate="G$1" x="342.9" y="68.58"/>
 <instance part="Q9" gate="G$1" x="365.76" y="38.1"/>
-<instance part="R19" gate="G$1" x="360.68" y="68.58"/>
+<instance part="R19" gate="G$1" x="360.68" y="66.04"/>
 <instance part="R20" gate="G$1" x="353.06" y="38.1"/>
 <instance part="C4" gate="G$1" x="299.72" y="81.28" rot="R270"/>
 <instance part="X2" gate="1" x="421.64" y="78.74"/>
 <instance part="IC1" gate="P" x="307.34" y="81.28"/>
-<instance part="X3" gate="-1" x="248.92" y="93.98"/>
-<instance part="X3" gate="-2" x="248.92" y="91.44"/>
-<instance part="X3" gate="-3" x="248.92" y="88.9"/>
-<instance part="X3" gate="-4" x="248.92" y="86.36"/>
-<instance part="X3" gate="-5" x="248.92" y="83.82"/>
-<instance part="X3" gate="-6" x="248.92" y="81.28"/>
-<instance part="X3" gate="-7" x="248.92" y="78.74"/>
-<instance part="X3" gate="-8" x="248.92" y="76.2"/>
-<instance part="X3" gate="-9" x="248.92" y="73.66"/>
 <instance part="X4" gate="-1" x="55.245" y="90.17"/>
 <instance part="X4" gate="-2" x="55.245" y="87.63"/>
 <instance part="X4" gate="-3" x="55.245" y="85.09"/>
@@ -7275,6 +7205,16 @@ the voltage-doubler configuration! -&gt;</text>
 <instance part="D1" gate="G$1" x="360.68" y="152.4"/>
 <instance part="C5" gate="G$1" x="386.08" y="144.78"/>
 <instance part="C6" gate="G$1" x="337.82" y="134.62" rot="MR0"/>
+<instance part="X6" gate="-1" x="248.92" y="93.98"/>
+<instance part="X6" gate="-2" x="248.92" y="91.44"/>
+<instance part="X6" gate="-3" x="248.92" y="88.9"/>
+<instance part="X6" gate="-4" x="248.92" y="86.36"/>
+<instance part="X6" gate="-5" x="248.92" y="83.82"/>
+<instance part="X6" gate="-6" x="248.92" y="81.28"/>
+<instance part="X6" gate="-7" x="248.92" y="78.74"/>
+<instance part="X6" gate="-8" x="248.92" y="76.2"/>
+<instance part="X6" gate="-9" x="248.92" y="73.66"/>
+<instance part="R18" gate="G$1" x="337.82" y="76.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7382,9 +7322,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="60.96" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-6" pin="F"/>
 <wire x1="246.38" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
 <label x="238.76" y="81.28" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-6" pin="F"/>
 </segment>
 </net>
 <net name="HV2" class="0">
@@ -7398,9 +7338,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="121.92" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-1" pin="F"/>
 <wire x1="246.38" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
 <label x="238.76" y="93.98" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-1" pin="F"/>
 </segment>
 </net>
 <net name="HV" class="0">
@@ -7455,9 +7395,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="104.14" y="91.44" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-5" pin="F"/>
 <wire x1="246.38" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="238.76" y="83.82" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-5" pin="F"/>
 </segment>
 <segment>
 <wire x1="52.705" y1="90.17" x2="47.625" y2="90.17" width="0.1524" layer="91"/>
@@ -7582,9 +7522,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="187.96" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-4" pin="F"/>
 <wire x1="246.38" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
 <label x="238.76" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-4" pin="F"/>
 </segment>
 </net>
 <net name="HV4" class="0">
@@ -7598,9 +7538,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="246.38" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-2" pin="F"/>
 <wire x1="246.38" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <label x="238.76" y="91.44" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-2" pin="F"/>
 </segment>
 </net>
 <net name="LV5" class="0">
@@ -7635,9 +7575,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="60.96" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-7" pin="F"/>
 <wire x1="246.38" y1="78.74" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
 <label x="238.76" y="78.74" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-7" pin="F"/>
 </segment>
 </net>
 <net name="LV6" class="0">
@@ -7677,9 +7617,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="124.46" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-3" pin="F"/>
 <wire x1="246.38" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <label x="238.76" y="88.9" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-3" pin="F"/>
 </segment>
 </net>
 <net name="LV7" class="0">
@@ -7714,9 +7654,9 @@ the voltage-doubler configuration! -&gt;</text>
 <label x="190.5" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-9" pin="F"/>
 <wire x1="246.38" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
 <label x="238.76" y="73.66" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-9" pin="F"/>
 </segment>
 </net>
 <net name="LV8" class="0">
@@ -7778,9 +7718,9 @@ the voltage-doubler configuration! -&gt;</text>
 <junction x="307.34" y="71.12"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-8" pin="F"/>
 <wire x1="246.38" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
 <label x="238.76" y="76.2" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X6" gate="-8" pin="F"/>
 </segment>
 <segment>
 <wire x1="52.705" y1="82.55" x2="47.625" y2="82.55" width="0.1524" layer="91"/>
@@ -7817,36 +7757,32 @@ the voltage-doubler configuration! -&gt;</text>
 <pinref part="IC1" gate="D" pin="O"/>
 <pinref part="IC1" gate="A" pin="I1"/>
 <wire x1="335.28" y1="83.82" x2="337.82" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="337.82" y1="83.82" x2="353.06" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="71.12" x2="337.82" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="71.12" x2="337.82" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="81.28" x2="337.82" y2="83.82" width="0.1524" layer="91"/>
 <junction x="337.82" y="83.82"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="55.88" x2="337.82" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="55.88" x2="337.82" y2="71.12" width="0.1524" layer="91"/>
-<junction x="337.82" y="71.12"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="O"/>
-<wire x1="368.3" y1="86.36" x2="373.38" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="86.36" x2="375.92" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="I0"/>
-<wire x1="373.38" y1="86.36" x2="403.86" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="381" y1="55.88" x2="373.38" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="55.88" x2="373.38" y2="73.66" width="0.1524" layer="91"/>
-<junction x="373.38" y="86.36"/>
+<wire x1="375.92" y1="86.36" x2="403.86" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="381" y1="55.88" x2="375.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="55.88" x2="375.92" y2="73.66" width="0.1524" layer="91"/>
+<junction x="375.92" y="86.36"/>
 <pinref part="IC1" gate="B" pin="I0"/>
-<wire x1="373.38" y1="73.66" x2="373.38" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="381" y1="73.66" x2="373.38" y2="73.66" width="0.1524" layer="91"/>
-<junction x="373.38" y="73.66"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="55.88" x2="373.38" y2="55.88" width="0.1524" layer="91"/>
-<junction x="373.38" y="55.88"/>
+<wire x1="375.92" y1="73.66" x2="375.92" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="381" y1="73.66" x2="375.92" y2="73.66" width="0.1524" layer="91"/>
+<junction x="375.92" y="73.66"/>
 <pinref part="X2" gate="1" pin="5"/>
 <wire x1="408.94" y1="81.28" x2="403.86" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="81.28" x2="403.86" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="68.58" x2="347.98" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="73.66" x2="375.92" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -7869,11 +7805,12 @@ the voltage-doubler configuration! -&gt;</text>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="B" pin="I1"/>
-<wire x1="365.76" y1="68.58" x2="368.3" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="66.04" x2="368.3" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="Q9" gate="G$1" pin="C"/>
+<wire x1="368.3" y1="66.04" x2="368.3" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="68.58" x2="381" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="43.18" x2="368.3" y2="68.58" width="0.1524" layer="91"/>
-<junction x="368.3" y="68.58"/>
+<wire x1="368.3" y1="43.18" x2="368.3" y2="66.04" width="0.1524" layer="91"/>
+<junction x="368.3" y="66.04"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -7907,16 +7844,16 @@ the voltage-doubler configuration! -&gt;</text>
 <pinref part="IC1" gate="C" pin="I1"/>
 <wire x1="307.34" y1="99.06" x2="299.72" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="381" y1="50.8" x2="350.52" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="50.8" x2="350.52" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="50.8" x2="350.52" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="I0"/>
-<wire x1="350.52" y1="68.58" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="66.04" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="88.9" x2="353.06" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="99.06" x2="350.52" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="99.06" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
 <junction x="350.52" y="88.9"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="350.52" y1="68.58" x2="355.6" y2="68.58" width="0.1524" layer="91"/>
-<junction x="350.52" y="68.58"/>
+<wire x1="350.52" y1="66.04" x2="355.6" y2="66.04" width="0.1524" layer="91"/>
+<junction x="350.52" y="66.04"/>
 <pinref part="IC1" gate="D" pin="I0"/>
 <wire x1="320.04" y1="86.36" x2="317.5" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="86.36" x2="317.5" y2="99.06" width="0.1524" layer="91"/>
@@ -7949,9 +7886,9 @@ the voltage-doubler configuration! -&gt;</text>
 <segment>
 <pinref part="IC1" gate="D" pin="I1"/>
 <wire x1="320.04" y1="81.28" x2="317.5" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="81.28" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="81.28" x2="317.5" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="71.12" x2="322.58" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="68.58" x2="322.58" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -7969,6 +7906,17 @@ the voltage-doubler configuration! -&gt;</text>
 <pinref part="IC2" gate="G$1" pin="C-"/>
 <wire x1="347.98" y1="129.54" x2="337.82" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="68.58" x2="337.82" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="68.58" x2="340.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="68.58" x2="337.82" y2="71.12" width="0.1524" layer="91"/>
+<junction x="337.82" y="68.58"/>
 </segment>
 </net>
 </nets>

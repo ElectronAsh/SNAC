@@ -2,6 +2,7 @@ Partlist exported from C:/SNAC/snac/SNAC  7ch SMS 3D Dongle.sch at 09/12/2020 16
 
 Part Value        Device           Package      Description
 R17  75K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603FT75K0
+R1   10K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603JT10K0CT-ND
 R19  10K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603JT10K0CT-ND
 R20  10K          RESISTOR0603-RES 0603-RES     Resistor                                 digikey RMCF0603JT10K0CT-ND
 C1   100uF        C_1210           C1210        NON-POLARIZED CAP 16V                    digikey EMK325ABJ107MM-P
