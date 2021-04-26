@@ -1610,7 +1610,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="SNES_CON" library="gamepad-conn" deviceset="SNESCONN" device=""/>
 <part name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-09-PIN" device="-LONG-PAD"/>
 <part name="C3" library="rc-master-smd" deviceset="C_" device="0805" value="100nF"/>
-<part name="C4" library="rc-master-smd" deviceset="C_" device="0805" value="100nF"/>
 <part name="X1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-09-PIN" device="-LONG-PAD"/>
 <part name="Q4" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD" value="BSS138"/>
 <part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
@@ -1714,8 +1713,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="X2" gate="-7" x="55.245" y="100.33"/>
 <instance part="X2" gate="-8" x="55.245" y="97.79"/>
 <instance part="X2" gate="-9" x="55.245" y="95.25"/>
-<instance part="C3" gate="G$1" x="209.55" y="116.84"/>
-<instance part="C4" gate="G$1" x="209.55" y="102.87"/>
+<instance part="C3" gate="G$1" x="209.55" y="102.87"/>
 <instance part="X1" gate="-1" x="55.245" y="74.93"/>
 <instance part="X1" gate="-2" x="55.245" y="72.39"/>
 <instance part="X1" gate="-3" x="55.245" y="69.85"/>
@@ -1805,7 +1803,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="180.34" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="212.09" y1="102.87" x2="217.17" y2="102.87" width="0.1524" layer="91"/>
 <label x="217.17" y="102.87" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -1942,11 +1940,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="52.705" y1="115.57" x2="47.625" y2="115.57" width="0.1524" layer="91"/>
 <label x="47.625" y="115.57" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="X2" gate="-1" pin="S"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="212.09" y1="116.84" x2="217.17" y2="116.84" width="0.1524" layer="91"/>
-<label x="217.17" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="52.705" y1="74.93" x2="47.625" y2="74.93" width="0.1524" layer="91"/>
@@ -2217,11 +2210,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="207.01" y1="116.84" x2="201.93" y2="116.84" width="0.1524" layer="91"/>
-<label x="201.93" y="116.84" size="1.27" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="207.01" y1="102.87" x2="201.93" y2="102.87" width="0.1524" layer="91"/>
 <label x="201.93" y="102.87" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>

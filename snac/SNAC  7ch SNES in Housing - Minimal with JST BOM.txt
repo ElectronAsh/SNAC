@@ -1,0 +1,34 @@
+Partlist exported from C:/SNAC/snac/SNAC  7ch SNES in Housing - Minimal with JST.sch at 26/04/2021 04:11
+
+Part     Value                          Device                         Package                    Description            AVAILABILITY DESCRIPTION MF   MP      PACKAGE PRICE 
+C1       1uf                            C_0805                         C0805                      NON-POLARIZED CAP                                                          
+C2       1uf                            C_0805                         C0805                      NON-POLARIZED CAP                                                          
+C3       100nF                          C_0805                         C0805                      NON-POLARIZED CAP                                                          
+Q1       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+Q2       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+Q3       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+Q4       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+Q5       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+Q6       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+Q7       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+Q8       BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                                                               
+R1       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R2       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R3       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R4       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R5       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R6       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R7       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R8       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R9       10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R10      10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R11      10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R12      10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R13      10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R14      10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R15      10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+R16      10K                            RESISTOR0603-RES               0603-RES                   Resistor                                                                   
+SNES_CON SNESCONN                       SNESCONN                       SNESCONN                                                                                              
+U1       PMIC-LDO-XC6206P332MR-G(SOT23) PMIC-LDO-XC6206P332MR-G(SOT23) SOT-23                     310030099              Unavailable   SMD PMIC    LDO  Vin 6V  3.3V    200mA
+X1       JST-XH-09-PIN-LONG-PAD         JST-XH-09-PIN-LONG-PAD         JST-XH-09-PACKAGE-LONG-PAD JST XH Connector 2 Pin                                                     
+X2       JST-XH-09-PIN-LONG-PAD         JST-XH-09-PIN-LONG-PAD         JST-XH-09-PACKAGE-LONG-PAD JST XH Connector 2 Pin                                                     
