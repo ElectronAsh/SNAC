@@ -1,46 +1,46 @@
-Partlist exported from C:/SNAC/snac/SNAC  7ch SMS DB9 3D in Housing with JST.sch at 16/04/2021 22:44
+digiPartlist exported from C:/SNAC/snac/SNAC  7ch SMS DB9 3D in Housing with JST.sch at 16/04/2021 22:44
 
 Part Value                          Device                         Package                     Description 
-C1   1uf                            C_0805                         C0805                       NON-POLARIZED CAP	                    digikey 2997-MA0805YV105Z160TR-ND
-C2   1uf                            C_0805                         C0805                       NON-POLARIZED CAP	                    digikey 2997-MA0805YV105Z160TR-ND
-C3   47nF                           C_0805                         C0805                       NON-POLARIZED CAP	                    digikey 2997-MA0805XR473K500TR-ND
-C4   22uF                           C_0805                         C0805                       NON-POLARIZED CAP                        digikey 399-4696-1-ND
-C5   100uF                          C-EUC1812                      C1812                       CAPACITOR, European symbol               digikey EMK325ABJ107MM-P
-C6   100uF                          C-EUC1812                      C1812                       CAPACITOR, European symbol               digikey EMK325ABJ107MM-P
-C13  22uF                           C_0805                         C0805                       NON-POLARIZED CAP                        digikey 399-4696-1-ND
-D1   MBRA340T3                      MBRA340T3                      SMA                         Surface Mount Schottky Power Rectifier   digikey 2156-MBRA340T3G-OS-ND
+C1   1uf                            C_0805                         C0805                       NON-POLARIZED CAP	                    digikey 732-7625-1-ND
+C2   1uf                            C_0805                         C0805                       NON-POLARIZED CAP	                    digikey 732-7625-1-ND
+C3   47nF                           C_0805                         C0805                       NON-POLARIZED CAP	                    digikey 399-C0805C473K2RECAUTOCT-ND
+C4   22uF                           C_0805                         C0805                       NON-POLARIZED CAP                        digikey 399-4696-1-ND‎
+C5   100uF                          C-EUC1812                      C1812                       CAPACITOR, European symbol               digikey ‎445-7743-1-ND‎
+C6   100uF                          C-EUC1812                      C1812                       CAPACITOR, European symbol               digikey ‎445-7743-1-ND‎
+C13  22uF                           C_0805                         C0805                       NON-POLARIZED CAP                        digikey 399-4696-1-ND‎
+D1   MBRA160T3G‎                     MBRA160T3G‎                     SMA                         Surface Mount Schottky Power Rectifier   digikey MBRA160T3GOSCT-ND
 IC1  4030D                          4030D                          SO14                        Quad XOR                                 digikey 296-14263-5-ND
 IC2  MAX660CPACS                    MAX660CPACS                    SO08                        Charge-pump VOLTAGE CONVERTER            digikey MAX660MX/NOPBCT-ND
-Q1   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
-Q2   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
-Q3   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
-Q4   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
-Q5   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
-Q6   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
-Q7   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
-Q8   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138CT-ND
+Q1   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
+Q2   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
+Q3   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
+Q4   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
+Q5   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
+Q6   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
+Q7   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
+Q8   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
 Q9   BC849SMD                       BC849SMD                       SOT23-BEC                   NPN Transistor                           digikey BC847C-TPCT-ND
-R1   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R2   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R3   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R4   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R5   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R6   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R7   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R8   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R9   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R10  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R11  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R12  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R13  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R14  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R15  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R16  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R17  75K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT75K0
-R18  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R19  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-R20  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT10K0CT-ND
-U1   PMIC-LDO-XC6206P332MR-G(SOT23) PMIC-LDO-XC6206P332MR-G(SOT23) SOT-23                      310030099                                digikey XC6206P332MR-G-ND
+R1   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND‎
+R2   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND‎
+R3   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R4   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R5   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R6   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R7   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R8   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R9   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R10  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R11  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R12  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R13  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R14  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R15  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R16  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R17  75K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT75K0CT-ND
+R18  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R19  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+R20  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
+U1   AP2127N-3.3TRG1                LDO 3V3                        SOT-23                      Voltage Regulator                        digikey AP2127N-3.3TRG1DICT-ND
 X1   JST-XH-02-PIN-ROUND-PAD        JST-XH-02-PIN-ROUND-PAD        JST-XH-02-PACKAGE-ROUND-PAD JST XH Connector 2 Pin                   digikey 455-2247-ND
 X2   STEREOJACK                     STEREOJACK                     STX3100                     MIC/HEADPHONE JACK                       digikey CP1-3523N-ND
 X4   JST-XH-09-PIN-LONG-PAD         JST-XH-09-PIN-LONG-PAD         JST-XH-09-PACKAGE-LONG-PAD  JST XH Connector 9 Pin                   digikey 455-2224-ND
