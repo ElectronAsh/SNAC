@@ -18,7 +18,6 @@ Q4   BSS138                         MOSFET-NCHANNELSMD             SOT23-3      
 Q5   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
 Q6   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
 Q7   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
-Q8   BSS138                         MOSFET-NCHANNELSMD             SOT23-3                                                              digikey BSS138LCT-ND
 Q9   BC849SMD                       BC849SMD                       SOT23-BEC                   NPN Transistor                           digikey BC847C-TPCT-ND
 R1   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND‎
 R2   10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND‎
@@ -32,8 +31,6 @@ R9   10K                            RESISTOR0603-RES               0603-RES     
 R10  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
 R11  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
 R12  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
-R13  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
-R14  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
 R15  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
 R16  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
 R17  75K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603JT75K0CT-ND
@@ -41,7 +38,6 @@ R18  10K                            RESISTOR0603-RES               0603-RES     
 R19  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
 R20  10K                            RESISTOR0603-RES               0603-RES                    Resistor                                 digikey RMCF0603FT10K0CT-ND
 U1   AP2127N-3.3TRG1                LDO 3V3                        SOT-23                      Voltage Regulator                        digikey AP2127N-3.3TRG1DICT-ND
-X1   JST-XH-02-PIN-ROUND-PAD        JST-XH-02-PIN-ROUND-PAD        JST-XH-02-PACKAGE-ROUND-PAD JST XH Connector 2 Pin                   digikey 455-2247-ND
 X2   STEREOJACK                     STEREOJACK                     STX3100                     MIC/HEADPHONE JACK                       digikey CP1-3523N-ND
 X4   JST-XH-09-PIN-LONG-PAD         JST-XH-09-PIN-LONG-PAD         JST-XH-09-PACKAGE-LONG-PAD  JST XH Connector 9 Pin                   digikey 455-2224-ND
 X5   JST-XH-09-PIN-LONG-PAD         JST-XH-09-PIN-LONG-PAD         JST-XH-09-PACKAGE-LONG-PAD  JST XH Connector 9 Pin                   (only need one 9-pin JST)
