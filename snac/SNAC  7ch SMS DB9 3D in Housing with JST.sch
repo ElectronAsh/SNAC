@@ -6982,14 +6982,14 @@ the voltage-doubler configuration! -&gt;</text>
 <text x="332.74" y="226.06" size="1.778" layer="97">Arduino_IO10</text>
 <text x="332.74" y="223.52" size="1.778" layer="97">Arduino_IO9</text>
 <text x="332.74" y="220.98" size="1.778" layer="97">Arduino_IO8</text>
-<text x="332.74" y="205.74" size="1.778" layer="97">Arduino_IO7</text>
-<text x="332.74" y="203.2" size="1.778" layer="97">Arduino_IO6</text>
-<text x="332.74" y="200.66" size="1.778" layer="97">Arduino_IO5</text>
-<text x="332.74" y="198.12" size="1.778" layer="97">Arduino_IO4</text>
-<text x="332.74" y="195.58" size="1.778" layer="97">Arduino_IO3</text>
-<text x="332.74" y="193.04" size="1.778" layer="97">Arduino_IO2</text>
-<text x="332.74" y="190.5" size="1.778" layer="97">Arduino_IO1</text>
-<text x="332.74" y="187.96" size="1.778" layer="97">Arduino_IO0</text>
+<text x="332.74" y="208.28" size="1.778" layer="97">Arduino_IO7</text>
+<text x="332.74" y="205.74" size="1.778" layer="97">Arduino_IO6</text>
+<text x="332.74" y="203.2" size="1.778" layer="97">Arduino_IO5</text>
+<text x="332.74" y="200.66" size="1.778" layer="97">Arduino_IO4</text>
+<text x="332.74" y="198.12" size="1.778" layer="97">Arduino_IO3</text>
+<text x="332.74" y="195.58" size="1.778" layer="97">Arduino_IO2</text>
+<text x="332.74" y="193.04" size="1.778" layer="97">Arduino_IO1</text>
+<text x="332.74" y="190.5" size="1.778" layer="97">Arduino_IO0</text>
 <text x="373.38" y="243.84" size="1.778" layer="97">RX</text>
 <text x="373.38" y="241.3" size="1.778" layer="97">TX</text>
 <text x="373.38" y="233.68" size="1.778" layer="97">RTS</text>
@@ -7000,10 +7000,10 @@ the voltage-doubler configuration! -&gt;</text>
 <text x="373.38" y="220.98" size="1.778" layer="97">IO6</text>
 <text x="373.38" y="251.46" size="1.778" layer="97">USER_PORT...</text>
 <text x="332.74" y="236.22" size="1.778" layer="97">GND</text>
-<text x="353.06" y="193.04" size="1.778" layer="97">DL</text>
-<text x="353.06" y="190.5" size="1.778" layer="97">DH</text>
-<text x="353.06" y="187.96" size="1.778" layer="97">CKE</text>
-<text x="363.22" y="190.5" size="1.778" layer="97">&lt;- Older SDRAM board</text>
+<text x="353.06" y="195.58" size="1.778" layer="97">DL</text>
+<text x="353.06" y="193.04" size="1.778" layer="97">DH</text>
+<text x="353.06" y="190.5" size="1.778" layer="97">CKE</text>
+<text x="363.22" y="193.04" size="1.778" layer="97">&lt;- Older SDRAM board</text>
 <text x="393.7" y="241.3" size="1.778" layer="97">2. D-</text>
 <text x="393.7" y="243.84" size="1.778" layer="97">3. D+</text>
 <text x="393.7" y="236.22" size="1.778" layer="97">4. GND</text>
@@ -7027,11 +7027,11 @@ the voltage-doubler configuration! -&gt;</text>
 <text x="441.96" y="226.06" size="1.778" layer="97">7. (via jumper)</text>
 <text x="441.96" y="251.46" size="1.778" layer="97">SNAC/Bliss HDMI...</text>
 <text x="441.96" y="215.9" size="1.778" layer="97">17. 3V3</text>
-<text x="353.06" y="205.74" size="1.778" layer="97">DIG_SD_MISO</text>
-<text x="353.06" y="203.2" size="1.778" layer="97">DIG_SD_CLK</text>
-<text x="353.06" y="200.66" size="1.778" layer="97">DIG_SD_MOSI</text>
-<text x="353.06" y="198.12" size="1.778" layer="97">DIG_MCP_SCL</text>
-<text x="353.06" y="195.58" size="1.778" layer="97">DIG_MCP_SDA</text>
+<text x="353.06" y="208.28" size="1.778" layer="97">DIG_SD_MISO</text>
+<text x="353.06" y="205.74" size="1.778" layer="97">DIG_SD_CLK</text>
+<text x="353.06" y="203.2" size="1.778" layer="97">DIG_SD_MOSI</text>
+<text x="353.06" y="200.66" size="1.778" layer="97">DIG_MCP_SCL</text>
+<text x="353.06" y="198.12" size="1.778" layer="97">DIG_MCP_SDA</text>
 <text x="353.06" y="251.46" size="1.778" layer="97">Core name...</text>
 <text x="353.06" y="220.98" size="1.778" layer="97">USER_IO[6]</text>
 <text x="353.06" y="226.06" size="1.778" layer="97">USER_IO[5]</text>
@@ -7041,7 +7041,7 @@ the voltage-doubler configuration! -&gt;</text>
 <text x="353.06" y="241.3" size="1.778" layer="97">USER_IO[1]</text>
 <text x="353.06" y="243.84" size="1.778" layer="97">USER_IO[0]</text>
 <text x="337.82" y="246.38" size="1.778" layer="97">P7</text>
-<text x="337.82" y="208.28" size="1.778" layer="97">P6</text>
+<text x="337.82" y="210.82" size="1.778" layer="97">P6</text>
 <text x="314.96" y="220.98" size="1.778" layer="97">PIN_AF17</text>
 <text x="314.96" y="226.06" size="1.778" layer="97">PIN_AF15</text>
 <text x="314.96" y="228.6" size="1.778" layer="97">PIN_AG16</text>
@@ -7068,7 +7068,7 @@ the voltage-doubler configuration! -&gt;</text>
 <text x="424.18" y="226.06" size="1.778" layer="97">LV7</text>
 <text x="424.18" y="220.98" size="1.778" layer="97">LV6</text>
 <text x="388.62" y="213.36" size="1.778" layer="97">Note: Pin mapping FIXED,
-vs the first Jammix prototype!</text>
+vs the first prototype!</text>
 <text x="30.48" y="86.36" size="1.778" layer="97">Note: Pin mapping FIXED,
 vs the first prototype!</text>
 </plain>

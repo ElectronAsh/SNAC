@@ -4522,7 +4522,6 @@
 <rectangle x1="13.329921875" y1="58.0491625" x2="13.604240625" y2="58.05931875" layer="21"/>
 <rectangle x1="13.421359375" y1="58.059321875" x2="13.502640625" y2="58.069478125" layer="21"/>
 <text x="9.1694" y="60.8838" size="0.8128" layer="16" font="vector" ratio="22" rot="MR180">V02</text>
-<text x="32.3342" y="25.1206" size="0.762" layer="21" font="vector" ratio="15" rot="R90">OPT</text>
 <text x="32.639" y="58.3692" size="0.6096" layer="21" font="vector" ratio="15">1uf</text>
 <text x="26.3652" y="54.7116" size="0.6096" layer="21" font="vector" ratio="15" rot="R180">1uf</text>
 <text x="14.7066" y="13.7414" size="0.6096" layer="21" font="vector" ratio="15">JUMPER</text>
