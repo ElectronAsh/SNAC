@@ -7151,6 +7151,22 @@ the voltage-doubler configuration! -&gt;</text>
 vs the first prototype!</text>
 <text x="30.48" y="86.36" size="1.778" layer="97">Note: Pin mapping FIXED,
 vs the first prototype!</text>
+<text x="467.36" y="251.46" size="1.778" layer="97">USB 3.0 standard wire colours...</text>
+<text x="467.36" y="246.38" size="1.778" layer="97">RED</text>
+<text x="467.36" y="241.3" size="1.778" layer="97">WHITE</text>
+<text x="467.36" y="243.84" size="1.778" layer="97">GREEN</text>
+<text x="467.36" y="236.22" size="1.778" layer="97">BLACK</text>
+<text x="467.36" y="233.68" size="1.778" layer="97">PURPLE</text>
+<text x="467.36" y="231.14" size="1.778" layer="97">Bare wire(s), usually alongside the TX/RX pairs</text>
+<text x="467.36" y="228.6" size="1.778" layer="97">YELLOW</text>
+<text x="467.36" y="226.06" size="1.778" layer="97">BLUE</text>
+<text x="467.36" y="220.98" size="1.778" layer="97">ORANGE</text>
+<text x="482.6" y="233.68" size="1.778" layer="97">&lt;- PURPLE and BLUE get swapped in the cable!</text>
+<text x="482.6" y="226.06" size="1.778" layer="97">&lt;- PURPLE and BLUE get swapped in the cable!</text>
+<text x="482.6" y="228.6" size="1.778" layer="97">&lt;- YELLOW and ORANGE get swapped in the cable!</text>
+<text x="482.6" y="220.98" size="1.778" layer="97">&lt;- YELLOW and ORANGE get swapped in the cable!</text>
+<text x="467.36" y="210.82" size="1.778" layer="97">NOTE: No obvious way to tell which plug end the TX/RX wire pairs get swapped.</text>
+<text x="467.36" y="208.28" size="1.778" layer="97">For cables I've tried so far, the wire colours get swapped in the USB-A plug end.</text>
 </plain>
 <instances>
 <instance part="Q4" gate="G$1" x="236.22" y="177.8" smashed="yes" rot="R270">
